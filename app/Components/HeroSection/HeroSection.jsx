@@ -15,7 +15,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <div className=''>
+    <div>
       <Swiper
         centeredSlides={true}
         navigation={true}

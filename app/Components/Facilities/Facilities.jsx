@@ -26,7 +26,7 @@ const Facilities = () => {
           </div>
         </div>
         {/* facilities container */}
-        <div className=''>
+        <div>
           {/* facilities section -1  */}
           <hr className='text-[#e8e8e8] dark:text-[#383838] mb-10 mt-10' />
           <div

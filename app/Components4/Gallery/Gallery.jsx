@@ -1,3 +1,5 @@
+'use client';
+
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import Link from 'next/link';
@@ -27,7 +29,7 @@ const Gallery = () => {
 
   return (
     <section className=' dark:bg-lightBlack py-20 2xl:py-[120px]'>
-      <div className=''>
+      <div>
         {/* section title */}
         <div
           className='text-center px-5'

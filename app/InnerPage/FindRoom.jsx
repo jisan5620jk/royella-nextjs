@@ -85,7 +85,7 @@ const FindRoom = () => {
                 title='click hear to open and close rooms extender'
               >
                 Rooms
-                <BiChevronDown className='' />
+                <BiChevronDown />
               </span>
               <div className='text-sm pt-[6px] lightBlack dark:text-white'>
                 {room} Room
@@ -134,7 +134,7 @@ const FindRoom = () => {
                 title='click hear to open and close Adult And Children extender'
               >
                 Guests
-                <BiChevronDown className='' />
+                <BiChevronDown />
               </span>
               <div className='pt-[6px] text-sm  text-lightBlack dark:text-white'>
                 {adult} Adult, {children} Child
@@ -147,7 +147,7 @@ const FindRoom = () => {
                 >
                   <div className='py-2 px-5 group cursor-pointer'>
                     <li className='flex items-center justify-between'>
-                      <div className=''>{adult} Adult</div>
+                      <div>{adult} Adult</div>
                       <div className='flex items-center space-x-2'>
                         <button
                           className='w-5 h-5 md:w-6 md:h-6 bg-khaki text-white'
@@ -165,7 +165,7 @@ const FindRoom = () => {
                       </div>
                     </li>
                     <li className='flex items-center justify-between mt-1'>
-                      <div className=''>{children} Child</div>
+                      <div>{children} Child</div>
                       <div className='flex items-center space-x-2'>
                         <button
                           className='w-5 h-5 md:w-6 md:h-6 bg-khaki text-white'
@@ -221,7 +221,7 @@ const FindRoom = () => {
               </div>
               <div className='font-Garamond'>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] font-Lora font-normal leading-[26px]'>
-                  <span className=''>$560</span>
+                  <span>$560</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -242,7 +242,7 @@ const FindRoom = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'
@@ -300,7 +300,7 @@ const FindRoom = () => {
               </div>
               <div className='font-Garamond'>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center font-Lora font-normal leading-[26px] text-white  absolute top-[10px] right-[10px] '>
-                  <span className=''>$560</span>
+                  <span>$560</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -321,7 +321,7 @@ const FindRoom = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'
@@ -379,7 +379,7 @@ const FindRoom = () => {
               </div>
               <div className='font-Garamond'>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center font-Lora font-normal leading-[26px] text-white  absolute top-[10px] right-[10px] '>
-                  <span className=''>$560</span>
+                  <span>$560</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -400,7 +400,7 @@ const FindRoom = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'

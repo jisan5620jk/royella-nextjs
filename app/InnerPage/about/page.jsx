@@ -1,3 +1,5 @@
+'use client';
+
 import BreadCrumb from '../../BreadCrumb/BreadCrumb';
 import {
   BsArrowRight,
@@ -14,7 +16,8 @@ import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { Link } from 'react-router-dom';
 import FsLightbox from 'fslightbox-react';
-const About = () => {
+
+const page = () => {
   const [setCurrentSlide] = useState(0);
   // const [setLoaded] = useState(false);
   const [toggler, setToggler] = useState(false);
@@ -41,7 +44,7 @@ const About = () => {
   });
 
   return (
-    <section className=''>
+    <section>
       <BreadCrumb
         title='About Us'
         home={''}
@@ -164,7 +167,7 @@ const About = () => {
                   alt='Image'
                 />
 
-                <div className=''>
+                <div>
                   <h4 className='text-lg sm:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond'>
                     John D. Alexon
                   </h4>
@@ -235,10 +238,10 @@ const About = () => {
                  duration-500 left-0 right-0'
                 >
                   <div className='flex items-center justify-center space-x-4 text-white'>
-                    <FaFacebookF className='' />
-                    <BsTwitter className='' />
-                    <FaLinkedinIn className='' />
-                    <FaPinterestP className='' />
+                    <FaFacebookF />
+                    <BsTwitter />
+                    <FaLinkedinIn />
+                    <FaPinterestP />
                   </div>
                   <p className='text-white font-medium leading-10 text-xl lg:text-[22px] font-Garamond'>
                     example@gmail.com
@@ -271,10 +274,10 @@ const About = () => {
                  duration-500 left-0 right-0'
                 >
                   <div className='flex items-center justify-center space-x-4 text-white'>
-                    <FaFacebookF className='' />
-                    <BsTwitter className='' />
-                    <FaLinkedinIn className='' />
-                    <FaPinterestP className='' />
+                    <FaFacebookF />
+                    <BsTwitter />
+                    <FaLinkedinIn />
+                    <FaPinterestP />
                   </div>
                   <p className='text-white font-medium leading-10 text-xl lg:text-[22px] font-Garamond'>
                     example@gmail.com
@@ -307,10 +310,10 @@ const About = () => {
                  duration-500 left-0 right-0'
                 >
                   <div className='flex items-center justify-center space-x-4 text-white'>
-                    <FaFacebookF className='' />
-                    <BsTwitter className='' />
-                    <FaLinkedinIn className='' />
-                    <FaPinterestP className='' />
+                    <FaFacebookF />
+                    <BsTwitter />
+                    <FaLinkedinIn />
+                    <FaPinterestP />
                   </div>
                   <p className='text-white font-medium leading-10 text-xl lg:text-[22px] font-Garamond'>
                     example@gmail.com
@@ -571,14 +574,14 @@ const About = () => {
                     </div>
                     <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-2 lg:py-3'>
                       <div className='px-[30px] flex items-center justify-between '>
-                        <div className=''>
+                        <div>
                           <span className=' text-sm sm:text-base flex items-center '>
                             <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                               Read More
                             </span>
                           </span>
                         </div>
-                        <span className=''>
+                        <span>
                           <BsArrowRight
                             className='text-gray dark:text-lightGray group-hover:text-khaki'
                             size={'24px'}
@@ -621,14 +624,14 @@ const About = () => {
                     </div>
                     <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-2 lg:py-3'>
                       <div className='px-[30px] flex items-center justify-between '>
-                        <div className=''>
+                        <div>
                           <span className=' text-sm sm:text-base flex items-center '>
                             <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                               Read More
                             </span>
                           </span>
                         </div>
-                        <span className=''>
+                        <span>
                           <BsArrowRight
                             className='text-gray dark:text-lightGray group-hover:text-khaki'
                             size={'24px'}
@@ -671,14 +674,14 @@ const About = () => {
                     </div>
                     <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-2 lg:py-3'>
                       <div className='px-[30px] flex items-center justify-between '>
-                        <div className=''>
+                        <div>
                           <span className=' text-sm sm:text-base flex items-center '>
                             <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                               Read More
                             </span>
                           </span>
                         </div>
-                        <span className=''>
+                        <span>
                           <BsArrowRight
                             className='text-gray dark:text-lightGray group-hover:text-khaki'
                             size={'24px'}
@@ -697,4 +700,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default page;

@@ -25,7 +25,6 @@ export default {
       },
       screens: {
         esm: '480px',
-        // sm: "576px",
         sm: '576px',
         md: '768px',
         lg: '992px',

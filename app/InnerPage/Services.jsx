@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
-    <section className=''>
+    <section>
       <BreadCrumb title='services' />
 
       {/* service page content */}
@@ -31,7 +31,7 @@ const Services = () => {
             </div>
           </div>
           {/* facilities container */}
-          <div className=''>
+          <div>
             {/* facilities section -1  */}
             <hr className='text-[#e8e8e8] dark:text-[#383838] my-10' />
             <div

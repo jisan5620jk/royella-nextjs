@@ -1,7 +1,10 @@
+'use client'
+
 import FsLightbox from 'fslightbox-react';
 import { useState } from 'react';
 import { AiOutlineEye } from 'react-icons/ai';
 import Link from 'next/link';
+
 const Gallery = () => {
   const [toggler, setToggler] = useState(false);
   return (

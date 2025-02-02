@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Events = () => {
   return (
-    <section className=''>
+    <section>
       {/* Event one */}
       <div className="bg-[url('/images/home-3/event-bg-1.jpg')] dark:bg-[url('/images/home-3/dark-event-1.jpg')] bg-no-repeat py-20 2xl:py-[133px] bg-cover bg-center">
         <div

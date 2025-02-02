@@ -38,7 +38,6 @@ const Agency = () => {
         {/* 2nd col */}
         <div>
           <div
-            className=''
             data-aos='fade-up'
             data-aos-duration='1000'
           >

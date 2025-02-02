@@ -1,10 +1,19 @@
+'use client';
+
 import { BiLogoLinkedin, BiMessageRounded } from 'react-icons/bi';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { IoIosCall } from 'react-icons/io';
 import { IoLocationSharp } from 'react-icons/io5';
-
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
+
 const Footer5 = () => {
+  const [year, setYear] = useState('');
+
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    setYear(currentYear);
+  }, []);
   return (
     <footer className="relative   bg-[url('/images/home-5/footer-bg.jpg')] bg-cover bg-center bg-no-repeat pt-10">
       <div className='Container grid items-start grid-cols-1 sm:grid-cols-2 lg:grid-cols-6  xl:grid-cols-6 justify-between  gap-x-5 sm:gap-x-0 md:gap-x-5 lg:gap-x-3 gap-y-[30px] px-5  py-20 2xl:pt-[120px]'>
@@ -16,7 +25,6 @@ const Footer5 = () => {
         >
           <img
             src='/images/home-2/dark_footer_logo.png'
-            className=''
             alt='Image'
           />
           <p className='text-sm sm:text-base leading-[26px] font-Lora font-normal text-lightGray text-opacity-75 mt-6 lg:mt-[35px]'>
@@ -30,10 +38,7 @@ const Footer5 = () => {
                 Follow Us:
               </p>
               <li className='hover-animBg after:bg-white group bg-normalBlack w-[36px] h-[36px]  grid items-center justify-center rounded-full border border-white hover:border-khaki cursor-pointer after:z-[-1]'>
-                <Link
-                  href='#'
-                  className=''
-                >
+                <Link href='#'>
                   <FaFacebookF className='text-white group-hover:text-khaki group-hover:text-slateBlue-0 w-4 h-4 ' />
                 </Link>
               </li>
@@ -198,9 +203,7 @@ const Footer5 = () => {
         <div className='Container '>
           <hr className=' text-white text-opacity-10 ' />
           <p className='text-sm sm:text-base md:text-lg  leading-[27px] text-[#f7f9fb] font-normal font-Lora text-center py-[30px]'>
-            {`
-            Royella @${new Date().getFullYear()}. `}
-            <b>Royella</b> All Rights Reserved By{' '}
+            Royella &copy; {year}.<b>Royella</b> All Rights Reserved By{' '}
             <span className='text-khaki'>Dream IT</span>
           </p>
         </div>

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <div className=''>
+    <div>
       {/* // banner section */}
       <section
         className="bg-[url('/images/home-3/hero-bg.jpg')] bg-no-repeat bg-center w-full bg-cover h-[700px] lg:h-[780px]  grid items-center justify-center bg-[rgba(30,30,30,0.4)] bg-opacity-30 relative"

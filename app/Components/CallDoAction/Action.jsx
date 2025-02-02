@@ -36,7 +36,7 @@ const Action = () => {
                 alt='Image'
               />
 
-              <div className=''>
+              <div>
                 <h4 className='text-lg sm:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond'>
                   John D. Alexon
                 </h4>

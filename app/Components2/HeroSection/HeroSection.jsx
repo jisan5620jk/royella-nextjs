@@ -1,5 +1,5 @@
-import Link from "next/link";
-import InteractiveSelect from "./InterectiveSelect";
+import Link from 'next/link';
+import InteractiveSelect from './InterectiveSelect';
 
 const HeroSection = () => {
   const options = [
@@ -26,7 +26,7 @@ const HeroSection = () => {
       </div>
       <div className='items-end Container-Hero'>
         <div className='grid items-center justify-center grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-5 lg:gap-x-[30px]'>
-          <div className=''>
+          <div>
             <p className='text-sm sm:text-base md:text-lg lg:text-xl font-medium font-Garamond text-white'>
               Check In...*
             </p>
@@ -38,7 +38,7 @@ const HeroSection = () => {
               />
             </div>
           </div>
-          <div className=''>
+          <div>
             <p className='text-sm sm:text-base md:text-lg lg:text-xl font-medium font-Garamond text-white'>
               Check Out...*
             </p>
@@ -50,7 +50,7 @@ const HeroSection = () => {
               />
             </div>
           </div>
-          <div className=''>
+          <div>
             <p className='text-sm sm:text-base md:text-lg lg:text-xl font-medium font-Garamond text-white'>
               Adults
             </p>
@@ -62,7 +62,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=''>
+          <div>
             <p className='text-sm sm:text-base md:text-lg lg:text-xl font-medium font-Garamond text-white'>
               Children
             </p>

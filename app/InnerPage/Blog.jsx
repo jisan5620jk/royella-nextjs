@@ -50,14 +50,14 @@ const Blog = () => {
                       href={'/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
-                      <div className=''>
+                      <div>
                         <span className=' text-sm sm:text-base flex items-center '>
                           <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                             Read More
                           </span>
                         </span>
                       </div>
-                      <span className=''>
+                      <span>
                         <BsArrowRight
                           className='text-gray dark:text-lightGray group-hover:text-khaki'
                           size={'24px'}
@@ -107,14 +107,14 @@ const Blog = () => {
                       href={'/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
-                      <div className=''>
+                      <div>
                         <span className=' text-sm sm:text-base flex items-center '>
                           <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                             Read More
                           </span>
                         </span>
                       </div>
-                      <span className=''>
+                      <span>
                         <BsArrowRight
                           className='text-gray dark:text-lightGray group-hover:text-khaki'
                           size={'24px'}
@@ -164,14 +164,14 @@ const Blog = () => {
                       href={'/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
-                      <div className=''>
+                      <div>
                         <span className=' text-sm sm:text-base flex items-center '>
                           <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                             Read More
                           </span>
                         </span>
                       </div>
-                      <span className=''>
+                      <span>
                         <BsArrowRight
                           className='text-gray dark:text-lightGray group-hover:text-khaki'
                           size={'24px'}
@@ -220,14 +220,14 @@ const Blog = () => {
                       href={'/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
-                      <div className=''>
+                      <div>
                         <span className=' text-sm sm:text-base flex items-center '>
                           <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                             Read More
                           </span>
                         </span>
                       </div>
-                      <span className=''>
+                      <span>
                         <BsArrowRight
                           className='text-gray dark:text-lightGray group-hover:text-khaki'
                           size={'24px'}
@@ -277,14 +277,14 @@ const Blog = () => {
                       href={'/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
-                      <div className=''>
+                      <div>
                         <span className=' text-sm sm:text-base flex items-center '>
                           <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                             Read More
                           </span>
                         </span>
                       </div>
-                      <span className=''>
+                      <span>
                         <BsArrowRight
                           className='text-gray dark:text-lightGray group-hover:text-khaki'
                           size={'24px'}
@@ -333,14 +333,14 @@ const Blog = () => {
                       href={'/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
-                      <div className=''>
+                      <div>
                         <span className=' text-sm sm:text-base flex items-center '>
                           <span className='ml-[10px] leading-[38px] uppercase text-lightBlack dark:text-white font-medium group-hover:text-khaki hover:underline  underline-offset-1'>
                             Read More
                           </span>
                         </span>
                       </div>
-                      <span className=''>
+                      <span>
                         <BsArrowRight
                           className='text-gray dark:text-lightGray group-hover:text-khaki'
                           size={'24px'}

@@ -39,7 +39,7 @@ const Room = () => {
   });
 
   return (
-    <section className=''>
+    <section>
       <BreadCrumb
         title='ROOMS & SUITS'
         home={'/'}
@@ -87,7 +87,7 @@ const Room = () => {
                   />
                 </div>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] '>
-                  <span className=''>$450</span>
+                  <span>$450</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -119,7 +119,7 @@ const Room = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'
@@ -169,7 +169,7 @@ const Room = () => {
                   />
                 </div>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] '>
-                  <span className=''>$550</span>
+                  <span>$550</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -200,7 +200,7 @@ const Room = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'
@@ -250,7 +250,7 @@ const Room = () => {
                   />
                 </div>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] '>
-                  <span className=''>$560</span>
+                  <span>$560</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -281,7 +281,7 @@ const Room = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'
@@ -331,7 +331,7 @@ const Room = () => {
                   />
                 </div>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] '>
-                  <span className=''>$480</span>
+                  <span>$480</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -362,7 +362,7 @@ const Room = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'
@@ -412,7 +412,7 @@ const Room = () => {
                   />
                 </div>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] '>
-                  <span className=''>$520</span>
+                  <span>$520</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -443,7 +443,7 @@ const Room = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'
@@ -493,7 +493,7 @@ const Room = () => {
                   />
                 </div>
                 <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] '>
-                  <span className=''>$500</span>
+                  <span>$500</span>
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
@@ -524,7 +524,7 @@ const Room = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
-                      <div className=''>
+                      <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
                             src='/images/home-1/room-bottom-icon.png'
@@ -641,7 +641,6 @@ const Room = () => {
                 <div className='col-span-2 relative'>
                   <img
                     src='/images/inner/facilities-1.jpg'
-                    className=''
                     alt='Image'
                   />
                   <div className='inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group'>
@@ -659,7 +658,6 @@ const Room = () => {
                 <div className='col-span-2 relative'>
                   <img
                     src='/images/inner/facilities-2.jpg'
-                    className=''
                     alt='Image'
                   />
                   <div className='inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group'>
@@ -677,7 +675,6 @@ const Room = () => {
                 <div className='col-span-2 relative'>
                   <img
                     src='/images/inner/facilities-3.jpg'
-                    className=''
                     alt='Image'
                   />
                   <div className='inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group'>
@@ -697,7 +694,7 @@ const Room = () => {
       </div>
 
       {/* Contact with Us */}
-      <div className=''>
+      <div>
         <div className='Container bg-whiteSmoke  px-7 md:px-10 lg:px-14 2xl:px-20 py-10 md:py-14 lg:py-18 xl:py-20 2xl:py-[100px] relative  z-[1] mt-[-100px] mb-[100px]'>
           <div className='flex md:items-center flex-col md:flex-row'>
             <div

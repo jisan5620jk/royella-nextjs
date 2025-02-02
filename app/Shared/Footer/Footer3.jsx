@@ -93,10 +93,7 @@ const Footer3 = () => {
           <div>
             <ul className='flex space-x-3'>
               <li className='hover-animBg hover:scale-100 group transition-all duration-300 w-[35px] h-[35px] md:w-[40px] md:h-[40px] xl:w-[50px] xl:h-[50px] grid items-center justify-center rounded-full border border-[#353535] hover:border-khaki cursor-pointer '>
-                <Link
-                  href='#'
-                  className=''
-                >
+                <Link href='#'>
                   <FaFacebookF className='text-white group-hover:text-slateBlue-0 w-4 h-4' />
                 </Link>
               </li>

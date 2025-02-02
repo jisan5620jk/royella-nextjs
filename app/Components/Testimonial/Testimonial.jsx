@@ -106,7 +106,7 @@ const Testimonial = () => {
                   alt='Image'
                 />
 
-                <div className=''>
+                <div>
                   <h4 className='text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond'>
                     Maicle clork
                   </h4>
@@ -173,7 +173,7 @@ const Testimonial = () => {
                     alt='Image'
                   />
 
-                  <div className=''>
+                  <div>
                     <h4 className='text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond'>
                       Marina Trange
                     </h4>
@@ -234,7 +234,7 @@ const Testimonial = () => {
                     alt='Image'
                   />
 
-                  <div className=''>
+                  <div>
                     <h4 className='text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond'>
                       John D. Alexon
                     </h4>
@@ -295,7 +295,7 @@ const Testimonial = () => {
                     alt='Image'
                   />
 
-                  <div className=''>
+                  <div>
                     <h4 className='text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond'>
                       Brandon Mack
                     </h4>

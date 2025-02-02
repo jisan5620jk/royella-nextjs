@@ -35,7 +35,7 @@ const HotelAndResort = () => {
           >
             {/* slider 1 */}
             <div className='keen-slider__slide number-slide1 '>
-              <div className=''>
+              <div>
                 <img
                   src='/images/home-1/Hotel1.jpg'
                   className='h-[85%] lg:h-[90%]'
@@ -44,7 +44,7 @@ const HotelAndResort = () => {
               </div>
             </div>
             <div className='keen-slider__slide number-slide1 '>
-              <div className=''>
+              <div>
                 <img
                   src='/images/home-1/Hotel.png'
                   className='h-[85%] md:h-[100%] lg:h-[90%]'

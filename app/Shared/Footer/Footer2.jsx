@@ -45,7 +45,7 @@ const Footer2 = () => {
             <h4 className='text-lg leading-[46px] font-Garamond font-bold text pb-4 md:pb-5  text-lightBlack dark:text-white'>
               CONTACT US
             </h4>
-            <ul className=''>
+            <ul>
               <li className='text-gray dark:text-lightGray font-normal font-Lora text-sm xl:text-base mb-[15px] hover:text-khaki transition-all duration-300'>
                 support@example.com
               </li>
@@ -67,7 +67,7 @@ const Footer2 = () => {
             <h4 className='text-lg leading-[46px] font-Garamond font-bold text pb-4 md:pb-5  text-lightBlack dark:text-white'>
               INFORMATION
             </h4>
-            <ul className=''>
+            <ul>
               <li className='text-gray dark:text-lightGray font-normal font-Lora text-sm xl:text-base mb-[15px] hover:text-khaki transition-all duration-300'>
                 <Link href='#'> Our Location</Link>
               </li>

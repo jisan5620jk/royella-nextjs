@@ -65,10 +65,7 @@ const Footer = () => {
                 <div>
                   <ul className='flex space-x-3'>
                     <li className='hover-animBg group transition-all duration-300  rounded-full border border-lightGray border-opacity-75 hover:border-khaki cursor-pointer w-[37px] h-[37px] grid items-center justify-center'>
-                      <Link
-                        href='#'
-                        className=''
-                      >
+                      <Link href='#'>
                         <FaFacebookF className='text-lightGray text-opacity-75 group-hover:text-white group-hover:text-slateBlue-0 w-4 h-4 ' />
                       </Link>
                     </li>

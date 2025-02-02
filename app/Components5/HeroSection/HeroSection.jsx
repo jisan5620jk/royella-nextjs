@@ -1,3 +1,5 @@
+'use client'
+
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import './styles.css';
@@ -149,7 +151,7 @@ const HeroSection = () => {
                 {/* min-screen when upto 1400px then this code will be executed. under screen-1400px this code will be hidden. */}
                 <div className='hidden 2xl:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 relative before:absolute before:w-full before:h-full  text-khaki before:border after:w-[101%] lg:after:h-[51px] after:absolute lg:after:border after:top-[6px] after:right-[-7px] '>
                   <div className='text-white text-sm tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora flex items-center pl-2  '>
-                    <p className=''>Check In Date:</p>
+                    <p>Check In Date:</p>
                     <input
                       type='date'
                       name=''
@@ -304,7 +306,7 @@ const HeroSection = () => {
               {/* min-screen when upto 1400px then this code will be executed. under screen-1400px this code will be hidden. */}
               <div className='hidden 2xl:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 relative before:absolute before:w-full before:h-full  text-khaki before:border after:w-[101%] lg:after:h-[51px] after:absolute lg:after:border after:top-[6px] after:right-[-7px] '>
                 <div className='text-white  tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora flex items-center pl-2 text-sm sm:text-[13px] '>
-                  <p className=''>Check In Date:</p>
+                  <p>Check In Date:</p>
                   <input
                     type='date'
                     name=''
@@ -457,7 +459,7 @@ const HeroSection = () => {
               {/* min-screen when upto 1400px then this code will be executed. under screen-1400px this code will be hidden. */}
               <div className='hidden 2xl:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 relative before:absolute before:w-full before:h-full  text-khaki before:border after:w-[101%] lg:after:h-[51px] after:absolute lg:after:border after:top-[6px] after:right-[-7px] '>
                 <div className='text-white text-sm tracking-[1px] leading-7 xl:leading-[38px] font-normal font-Lora flex items-center pl-2  '>
-                  <p className=''>Check In Date:</p>
+                  <p>Check In Date:</p>
                   <input
                     type='date'
                     name=''

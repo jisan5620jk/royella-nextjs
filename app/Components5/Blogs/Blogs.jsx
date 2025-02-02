@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { FaRegUserCircle } from 'react-icons/fa';

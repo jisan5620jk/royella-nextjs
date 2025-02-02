@@ -1,7 +1,8 @@
+'use client'
+
 import { useState } from 'react';
 import { MdCloseFullscreen } from 'react-icons/md';
 import { LuSofa } from 'react-icons/lu';
-
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import '../../Components4/Testimonial/testimonials.css';

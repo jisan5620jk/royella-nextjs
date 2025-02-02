@@ -1,8 +1,17 @@
+'use client';
+
 import { BiLogoLinkedin, BiLogoYoutube } from 'react-icons/bi';
 import { FaFacebookF, FaPinterestP, FaTwitter } from 'react-icons/fa';
-
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
+
 const Footer4 = () => {
+  const [year, setYear] = useState('');
+
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    setYear(currentYear);
+  }, []);
   return (
     <footer className='bg-lightBlack dark:bg-normalBlack'>
       <div className='  '>
@@ -15,7 +24,6 @@ const Footer4 = () => {
           >
             <img
               src='/images/home-2/dark_footer_logo.png'
-              className=''
               alt='Image'
             />
             <p className='text-sm xl:text-base leading-[26px] font-Lora font-normal text-lightGray  mt-6 lg:mt-[30px]'>
@@ -26,10 +34,7 @@ const Footer4 = () => {
             <div className='mt-5 lg:mt-[24px]'>
               <ul className='flex space-x-3'>
                 <li className='hover-animBg group bg-white w-[36px] h-[36px]  grid items-center justify-center rounded-full border border-white hover:border-khaki cursor-pointer after:z-[-1]'>
-                  <Link
-                    href='#'
-                    className=''
-                  >
+                  <Link href='#'>
                     <FaFacebookF className='text-khaki group-hover:text-white group-hover:text-slateBlue-0 w-4 h-4 ' />
                   </Link>
                 </li>
@@ -175,16 +180,22 @@ const Footer4 = () => {
       Container '
       >
         <p className='text-center'>
-          {` © ${new Date().getFullYear()} All Rights Reserved Royella Luxury Hotel`}
+          © {year} All Rights Reserved Royella Luxury Hotel
         </p>
         <p className='flex items-center space-x-1 text-center justify-center mt-[6px] lg:mt-0'>
-          <Link className='hover:text-khaki transition-all duration-300'>
+          <Link
+            href={'#'}
+            className='hover:text-khaki transition-all duration-300'
+          >
             Terms of Use
           </Link>{' '}
-          /
-          <Link className='hover:text-khaki transition-all duration-300'>
+          /{' '}
+          <Link
+            href={'#'}
+            className='hover:text-khaki transition-all duration-300'
+          >
             Privacy Policy
-          </Link>{' '}
+          </Link>
         </p>
       </div>
     </footer>

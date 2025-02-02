@@ -87,7 +87,7 @@ const Rooms = () => {
                 title='click hear to open and close rooms extender'
               >
                 Rooms
-                <BiChevronDown className='' />
+                <BiChevronDown />
               </span>
               <div className='pt-[10px] text-sm sm:text-base'>{room} Room</div>
               <div className='absolute pt-5  z-20'>
@@ -98,7 +98,7 @@ const Rooms = () => {
                 >
                   <div className='py-2 px-5 group cursor-pointer'>
                     <li className='flex items-center justify-between'>
-                      <div className=''>{room} Room</div>
+                      <div>{room} Room</div>
                       <div className='flex items-center space-x-2'>
                         <button
                           className='w-5 h-5 md:w-6 md:h-6 bg-khaki text-white'
@@ -132,7 +132,7 @@ const Rooms = () => {
                 title='click hear to open and close Adult And Children extender'
               >
                 Guests
-                <BiChevronDown className='' />
+                <BiChevronDown />
               </span>
               <div className='pt-[10px] text-sm sm:text-base'>
                 {adult} Adult, {children} Child
@@ -145,7 +145,7 @@ const Rooms = () => {
                 >
                   <div className='py-2 px-5 group cursor-pointer'>
                     <li className='flex items-center justify-between'>
-                      <div className=''>{adult} Adult</div>
+                      <div>{adult} Adult</div>
                       <div className='flex items-center space-x-2'>
                         <button
                           className='w-5 h-5 md:w-6 md:h-6 bg-khaki text-white'
@@ -163,7 +163,7 @@ const Rooms = () => {
                       </div>
                     </li>
                     <li className='flex items-center justify-between mt-1'>
-                      <div className=''>{children} Child</div>
+                      <div>{children} Child</div>
                       <div className='flex items-center space-x-2'>
                         <button
                           className='w-5 h-5 md:w-6 md:h-6 bg-khaki text-white'
@@ -243,7 +243,7 @@ const Rooms = () => {
                           alt='Image'
                         />
                       </div>
-                      <div className=''>
+                      <div>
                         <Link href={'/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
@@ -254,7 +254,7 @@ const Rooms = () => {
                     </div>
                     <div className='font-Garamond'>
                       <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] font-Lora font-normal leading-[26px]'>
-                        <span className=''>$560</span>
+                        <span>$560</span>
                         <span className='mx-2'>|</span>
                         <span>Night</span>
                       </div>
@@ -275,7 +275,7 @@ const Rooms = () => {
                         </div>
                         <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
                           <div className='px-[30px] flex items-center justify-between'>
-                            <div className=''>
+                            <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
                                   src='/images/home-1/room-bottom-icon.png'
@@ -326,7 +326,7 @@ const Rooms = () => {
                           alt='Image'
                         />
                       </div>
-                      <div className=''>
+                      <div>
                         <Link href={'/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
@@ -337,7 +337,7 @@ const Rooms = () => {
                     </div>
                     <div className='font-Garamond'>
                       <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center font-Lora font-normal leading-[26px] text-white  absolute top-[10px] right-[10px] '>
-                        <span className=''>$560</span>
+                        <span>$560</span>
                         <span className='mx-2'>|</span>
                         <span>Night</span>
                       </div>
@@ -358,7 +358,7 @@ const Rooms = () => {
                         </div>
                         <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
                           <div className='px-[30px] flex items-center justify-between'>
-                            <div className=''>
+                            <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
                                   src='/images/home-1/room-bottom-icon.png'
@@ -409,7 +409,7 @@ const Rooms = () => {
                           alt='Image'
                         />
                       </div>
-                      <div className=''>
+                      <div>
                         <Link href={'/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
@@ -420,7 +420,7 @@ const Rooms = () => {
                     </div>
                     <div className='font-Garamond'>
                       <div className='px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center font-Lora font-normal leading-[26px] text-white  absolute top-[10px] right-[10px] '>
-                        <span className=''>$560</span>
+                        <span>$560</span>
                         <span className='mx-2'>|</span>
                         <span>Night</span>
                       </div>
@@ -441,7 +441,7 @@ const Rooms = () => {
                         </div>
                         <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
                           <div className='px-[30px] flex items-center justify-between'>
-                            <div className=''>
+                            <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
                                   src='/images/home-1/room-bottom-icon.png'
