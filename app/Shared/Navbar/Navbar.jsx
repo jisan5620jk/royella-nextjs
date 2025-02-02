@@ -12,9 +12,14 @@ const Navbar = () => {
   // modal openar
   const [isOpen, setIsOpen] = useState(false);
   // dark mode toggle bar
-  const [isDarkMode, setIsDarkMode] = useState(
-    localStorage.getItem('darkMode') === 'true'
-  );
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setIsDarkMode(localStorage.getItem('darkMode') === 'true');
+    }
+  }, []);
+
   // scrolling tracker
   const scrollPosition = useScrollPosition();
   // background color add and remover
