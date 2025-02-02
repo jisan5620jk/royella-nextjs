@@ -1,6 +1,6 @@
 import { FaStar } from 'react-icons/fa';
 import BreadCrumb from '../../BreadCrumb/BreadCrumb';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { BsArrowRight, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import { HiArrowLongRight } from 'react-icons/hi2';
 import { useKeenSlider } from 'keen-slider/react';

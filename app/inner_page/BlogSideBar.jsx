@@ -1,6 +1,6 @@
 import { FaSearch } from 'react-icons/fa';
 import { BiChevronsRight } from 'react-icons/bi';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 const BlogSideBar = () => {
   return (
     <>

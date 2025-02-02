@@ -1,6 +1,6 @@
 import { HiArrowLongRight } from 'react-icons/hi2';
 import BreadCrumb from '../../BreadCrumb/BreadCrumb';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Services = () => {
   return (

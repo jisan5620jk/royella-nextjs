@@ -1,6 +1,5 @@
 'use client';
 
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
 import {
   BsArrowRight,
   BsChevronLeft,
@@ -14,8 +13,9 @@ import { FaStar } from 'react-icons/fa';
 import '../../Components4/Testimonial/testimonials.css';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
-import { Link } from 'react-router-dom';
 import FsLightbox from 'fslightbox-react';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
+import Link from 'next/link';
 
 const page = () => {
   const [setCurrentSlide] = useState(0);

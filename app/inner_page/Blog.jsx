@@ -1,6 +1,6 @@
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import BreadCrumb from '../../BreadCrumb/BreadCrumb';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import BlogSideBar from './BlogSideBar';
 
 const Blog = () => {
