@@ -1,9 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Toptech - IT Solution Next JS Template',
+  title: 'Royella – Resort and Hotel Boking React Tailwind Website Template',
   description:
-    'Toptech - IT Solution React JS Template is a sleek, responsive, and customizable template for tech businesses and startups. Perfect for showcasing services and projects. Get started today!',
+    "Royella is a modern website template for resorts and hotels. Built with React, Next.js, and Tailwind CSS, it features a responsive design and an integrated booking system. Perfect for showcasing your resort's unique features and attracting more guests.",
 };
 
 export default function RootLayout({ children }) {

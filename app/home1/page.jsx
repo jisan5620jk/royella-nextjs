@@ -7,6 +7,7 @@ import LatestBlog from '../Components/LatestBlog/LatestBlog';
 import Offers from '../Components/Offers/Offers';
 import Rooms from '../Components/Rooms/Rooms';
 import Testimonial from '../Components/Testimonial/Testimonial';
+import Footer from '../Shared/Footer/Footer';
 import Navbar from '../Shared/Navbar/Navbar';
 
 const page = () => {
@@ -22,6 +23,7 @@ const page = () => {
       <Offers />
       <Testimonial />
       <LatestBlog />
+      <Footer />
     </>
   );
 };
