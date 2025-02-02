@@ -1,5 +1,8 @@
+'use client'
+
 import { useState } from "react";
 import FsLightbox from "fslightbox-react";
+
 const Player = () => {
   const [toggler, setToggler] = useState(false);
   return (

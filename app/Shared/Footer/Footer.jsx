@@ -31,7 +31,7 @@ const Footer = () => {
               <div className=' py-6 md:py-7 lg:py-[50px]  px-10 lg:px-5 xl:px-8 2xl:px-9 '>
                 <img
                   src='/images/home-1/logo-1.png'
-                  alt=''
+                  alt='Image'
                 />
                 <div className='py-8 2xl:py-[50px] '>
                   <h1 className='text-lg sm:text-xl md:text-[22px] leading-[38px] font-medium text-white relative font-Garamond before:w-7 before:h-[1px] before:bg-khaki before:absolute before:left-0 before:top-10'>
@@ -138,27 +138,27 @@ const Footer = () => {
               <div className='grid grid-cols-3 gap-2 mt-[45px] w-[250px] sm:w-[300px] lg:w-full  content-center '>
                 <img
                   src='/images/home-1/gallery-1.jpg'
-                  alt=''
+                  alt='Image'
                 />
                 <img
                   src='/images/home-1/gallery-2.jpg'
-                  alt=''
+                  alt='Image'
                 />
                 <img
                   src='/images/home-1/gallery-3.jpg'
-                  alt=''
+                  alt='Image'
                 />
                 <img
                   src='/images/home-1/gallery-4.jpg'
-                  alt=''
+                  alt='Image'
                 />
                 <img
                   src='/images/home-1/gallery-5.jpg'
-                  alt=''
+                  alt='Image'
                 />
                 <img
                   src='/images/home-1/gallery-6.jpg'
-                  alt=''
+                  alt='Image'
                 />
               </div>
             </div>
