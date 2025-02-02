@@ -3,7 +3,7 @@
 import { FaStar } from 'react-icons/fa';
 import { useState } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
-import '../../Components4/Testimonial/testimonials.css';
+import './testimonials.css';
 import 'keen-slider/keen-slider.min.css';
 
 const Testimonial = () => {
@@ -69,7 +69,7 @@ const Testimonial = () => {
               {/* quote icon */}
               <img
                 src='/images/home-1/testi-quote.png'
-                alt=''
+                alt='Image'
                 className='absolute  right-3 xl:right-10 -top-8'
               />
 
@@ -103,7 +103,7 @@ const Testimonial = () => {
                 <img
                   src='/images/home-1/testi-author.png'
                   className='w-[65px] h-[65px]'
-                  alt=''
+                  alt='Image'
                 />
 
                 <div className=''>
@@ -136,7 +136,7 @@ const Testimonial = () => {
                 {/* quote icon */}
                 <img
                   src='/images/home-1/testi-quote.png'
-                  alt=''
+                  alt='Image'
                   className='absolute  right-3 xl:right-10 -top-8'
                 />
 
@@ -170,7 +170,7 @@ const Testimonial = () => {
                   <img
                     src='/images/home-1/testi-author-2.png'
                     className='w-[65px] h-[65px]'
-                    alt=''
+                    alt='Image'
                   />
 
                   <div className=''>
@@ -197,7 +197,7 @@ const Testimonial = () => {
                 {/* quote icon */}
                 <img
                   src='/images/home-1/testi-quote.png'
-                  alt=''
+                  alt='Image'
                   className='absolute  right-3 xl:right-10 -top-8'
                 />
 
@@ -231,7 +231,7 @@ const Testimonial = () => {
                   <img
                     src='/images/home-1/call-do-action-img.png'
                     className='w-[65px] h-[65px]'
-                    alt=''
+                    alt='Image'
                   />
 
                   <div className=''>
@@ -258,7 +258,7 @@ const Testimonial = () => {
                 {/* quote icon */}
                 <img
                   src='/images/home-1/testi-quote.png'
-                  alt=''
+                  alt='Image'
                   className='absolute  right-3 xl:right-10 -top-8'
                 />
 
@@ -292,7 +292,7 @@ const Testimonial = () => {
                   <img
                     src='/images/home-1/testi-author.png'
                     className='w-[65px] h-[65px]'
-                    alt=''
+                    alt='Image'
                   />
 
                   <div className=''>

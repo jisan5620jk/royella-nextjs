@@ -33,7 +33,7 @@ const Action = () => {
               <img
                 src='/images/home-1/call-do-action-img.png'
                 className='w-[65px] h-[65px] object-cover'
-                alt=''
+                alt='Image'
               />
 
               <div className=''>
@@ -55,7 +55,7 @@ const Action = () => {
             <img
               src='/images/home-1/action-img.png'
               className='h-full w-full md:h-[80%] lg:h-full 2xl:h-[99%] '
-              alt=''
+              alt='Image'
             />
 
             <div

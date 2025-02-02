@@ -1,7 +1,6 @@
 .swiper-button-prev,
 .swiper-rtl .swiper-button-prev {
   left: var(--swiper-navigation-sides-offset, 10px);
-
   left: 92%;
 }
 

@@ -2,8 +2,8 @@
 
 import { BsArrowRight } from 'react-icons/bs';
 import { FaStar } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import '../../Components4/Testimonial/testimonials.css';
+import Link from 'next/link';
+import '../Testimonial/testimonials.css';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { useState } from 'react';
@@ -79,7 +79,7 @@ const Rooms = () => {
                   : isActive
                   ? 'active'
                   : ''} text-white  px-3 py-2 w-full block transition-all duration-300 group relative `}
-              to='#'
+              href='#'
             >
               <span
                 className='flex items-center justify-between text-sm text-lightGray cursor-pointer'
@@ -124,7 +124,7 @@ const Rooms = () => {
           <div className='p-3'>
             <div
               className={`text-white   px-3 py-2 w-full block transition-all duration-300 group relative `}
-              to='#'
+              h='#'
             >
               <span
                 className='flex items-center justify-between text-sm text-lightGray cursor-pointer'
@@ -185,7 +185,7 @@ const Rooms = () => {
               </div>
             </div>
           </div>
-          <Link to='/find_room'>
+          <Link href={'/find_room'}>
             <button className='w-[142px] h-10 lg:h-[50px] text-[15px] bg-khaki font-Garamond border border-khaki text-white mx-auto col-span-2  md:col-span-1 lg:col-span-1 relative z-10 before:absolute before:top-0 before:right-0 before:-z-10 before:w-0 before:h-full before:bg-lightBlack before:transition-all before:duration-500 hover:before:w-full hover:before:left-0'>
               Checkout Now
             </button>
@@ -240,11 +240,11 @@ const Rooms = () => {
                         <img
                           src='/images/home-1/room-1.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
-                          alt=''
+                          alt='Image'
                         />
                       </div>
                       <div className=''>
-                        <Link to={'/room_details'}>
+                        <Link href={'/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
                             <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -264,7 +264,7 @@ const Rooms = () => {
                           <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                             Luxury Room
                           </h4>
-                          <Link to='/room'>
+                          <Link href={'/room'}>
                             <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                               Double Suite Rooms
                             </h2>
@@ -279,7 +279,7 @@ const Rooms = () => {
                               <span className='font-Lora text-base flex items-center '>
                                 <img
                                   src='/images/home-1/room-bottom-icon.png'
-                                  alt=''
+                                  alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>
                                   2 King Bed
@@ -323,11 +323,11 @@ const Rooms = () => {
                         <img
                           src='/images/home-1/room-2.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
-                          alt=''
+                          alt='Image'
                         />
                       </div>
                       <div className=''>
-                        <Link to={'/room_details'}>
+                        <Link href={'/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
                             <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -347,7 +347,7 @@ const Rooms = () => {
                           <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                             Luxury Room
                           </h4>
-                          <Link to='/room'>
+                          <Link href={'/room'}>
                             <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                               Delux Family Rooms
                             </h2>
@@ -362,7 +362,7 @@ const Rooms = () => {
                               <span className='font-Lora text-base flex items-center '>
                                 <img
                                   src='/images/home-1/room-bottom-icon.png'
-                                  alt=''
+                                  alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>
                                   2 King Bed
@@ -406,11 +406,11 @@ const Rooms = () => {
                         <img
                           src='/images/home-1/room-3.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
-                          alt=''
+                          alt='Image'
                         />
                       </div>
                       <div className=''>
-                        <Link to={'/room_details'}>
+                        <Link href={'/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
                             <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -430,7 +430,7 @@ const Rooms = () => {
                           <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                             Luxury Room
                           </h4>
-                          <Link to='/room'>
+                          <Link href={'/room'}>
                             <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                               Suprior Bed Rooms
                             </h2>
@@ -445,7 +445,7 @@ const Rooms = () => {
                               <span className='font-Lora text-base flex items-center '>
                                 <img
                                   src='/images/home-1/room-bottom-icon.png'
-                                  alt=''
+                                  alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>
                                   2 King Bed

@@ -4,7 +4,7 @@ import './hotel.css';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const HotelAndResort = () => {
   const [, setCurrentSlide] = useState(0);
@@ -92,7 +92,7 @@ const HotelAndResort = () => {
                 <span className='w-[60px] h-[2px] bg-khaki rounded-full absolute -top-[0px] animation-move1'></span>
               </div>
             </div>
-            <Link to={'/about'}>
+            <Link href={'/about'}>
               <button className='btn-primary '>More About</button>
             </Link>
           </div>
