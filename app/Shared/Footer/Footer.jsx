@@ -1,16 +1,27 @@
+'use client';
+
 import { IoIosCall } from 'react-icons/io';
 import { IoLocationSharp } from 'react-icons/io5';
 import Brand from '../../Components/Brand/Brand';
 import { BiEnvelope, BiLogoLinkedin } from 'react-icons/bi';
 import { FaFacebookF, FaPinterestP, FaTwitter } from 'react-icons/fa';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+
 const Footer = () => {
+  const [year, setYear] = useState('');
+
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    setYear(currentYear);
+  }, []);
   return (
     <>
       <Brand />
-      <footer className=''>
+      <footer>
         {/* footer content */}
-        <div className='bg-lightBlack   '>
-          <div className='Container  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-10 2xl:grid-cols-12 gap-5 lg:gap-3 xl:gap-5 2xl:gap-[30px] pt-14 lg:pt-[100px] '>
+        <div className='bg-lightBlack'>
+          <div className='Container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-10 2xl:grid-cols-12 gap-5 lg:gap-3 xl:gap-5 2xl:gap-[30px] pt-14 lg:pt-[100px] '>
             {/* Footer Content one. */}
             <div
               className='lg:mt-[-195px] lg:col-span-3 2xl:col-span-4 bg-[#272727]'
@@ -181,7 +192,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='text-center py-5 2xl:py-7 bg-[#161616] text-sm md:text-base text-lightGray font-Lora font-normal'>
-            {` © ${new Date().getFullYear()} , Royella. All Rights Reserved.`}
+            © {year}, Royella. All Rights Reserved.
           </div>
         </div>
       </footer>
