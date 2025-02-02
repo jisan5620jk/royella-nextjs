@@ -9,14 +9,15 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
-  // modal openar
+  // modal opener
   const [isOpen, setIsOpen] = useState(false);
   // dark mode toggle bar
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      setIsDarkMode(localStorage.getItem('darkMode') === 'true');
+      const darkMode = localStorage.getItem('darkMode') === 'true';
+      setIsDarkMode(darkMode);
     }
   }, []);
 
@@ -33,16 +34,10 @@ const Navbar = () => {
   const handleClick = () => {
     const newMode = !isDarkMode;
     setIsDarkMode(newMode);
-    localStorage.setItem('darkMode', newMode);
-  };
-
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('darkMode', newMode);
     }
-  }, [isDarkMode]);
+  };
 
   return (
     <nav
@@ -373,7 +368,7 @@ const Navbar = () => {
           <div className='hidden lg:flex items-center'>
             <span
               onClick={handleClick}
-              className='mr-3 cursor-pointer group '
+              className='mr-3 cursor-pointer group'
             >
               {isDarkMode ? (
                 <BiSun
@@ -390,7 +385,7 @@ const Navbar = () => {
               )}
             </span>
             <Link href='/find_room'>
-              <button className='btn-secondary '>Booking Online</button>
+              <button className='btn-secondary'>Booking Online</button>
             </Link>
           </div>
         </div>
