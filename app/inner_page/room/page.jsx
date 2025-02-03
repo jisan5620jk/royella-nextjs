@@ -1,5 +1,7 @@
+'use client';
+
 import { FaStar } from 'react-icons/fa';
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import Link from 'next/link';
 import { BsArrowRight, BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import { HiArrowLongRight } from 'react-icons/hi2';
@@ -9,7 +11,7 @@ import { IoIosCall } from 'react-icons/io';
 import { MdEmail, MdOutlineShareLocation } from 'react-icons/md';
 import Swal from 'sweetalert2';
 
-const Room = () => {
+const page = () => {
   // facilities slider breckpoints
   const [sliderRef] = useKeenSlider({
     breakpoints: {
@@ -92,7 +94,7 @@ const Room = () => {
                   <span>Night</span>
                 </div>
 
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -114,10 +116,10 @@ const Room = () => {
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
-                  <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
+                  <div className='border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
                       <div>
                         <span className='font-Lora text-base flex items-center '>
@@ -173,7 +175,7 @@ const Room = () => {
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -195,7 +197,7 @@ const Room = () => {
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
@@ -254,7 +256,7 @@ const Room = () => {
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -276,7 +278,7 @@ const Room = () => {
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
@@ -335,7 +337,7 @@ const Room = () => {
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -357,7 +359,7 @@ const Room = () => {
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
@@ -416,7 +418,7 @@ const Room = () => {
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -438,10 +440,10 @@ const Room = () => {
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
-                  <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
+                  <div className='border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
                       <div>
                         <span className='font-Lora text-base flex items-center '>
@@ -497,7 +499,7 @@ const Room = () => {
                   <span className='mx-2'>|</span>
                   <span>Night</span>
                 </div>
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -519,10 +521,10 @@ const Room = () => {
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
-                  <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
+                  <div className='border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5'>
                     <div className='px-[30px] flex items-center justify-between'>
                       <div>
                         <span className='font-Lora text-base flex items-center '>
@@ -622,7 +624,7 @@ const Room = () => {
                 </p>
               </div>
               <Link
-                href={'/room_details'}
+                href={'/inner_page/room_details'}
                 className='flex items-center text-lightGray text-base font-Garamond font-semibold group hover:text-khaki dark:hover:text-khaki'
               >
                 VIEW DETAILS
@@ -885,4 +887,4 @@ const Room = () => {
   );
 };
 
-export default Room;
+export default page;

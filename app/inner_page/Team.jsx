@@ -1,5 +1,5 @@
 import { FaFacebookF, FaLinkedinIn, FaPinterestP } from 'react-icons/fa';
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { BsTwitter } from 'react-icons/bs';
 
 const Team = () => {

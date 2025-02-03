@@ -1,5 +1,5 @@
 import { BiChevronDown } from 'react-icons/bi';
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { useState } from 'react';
 import { FaStar } from 'react-icons/fa6';
 import { Link, useLocation } from 'react-router-dom';
@@ -188,7 +188,7 @@ const FindRoom = () => {
             </div>
           </div>
           <Link
-            href='/room_details'
+            href='/inner_page/room_details'
             state={bookingInfo ? bookingInfo : ''}
           >
             <button className='w-[142px] h-[50px] text-[15px] bg-khaki font-Garamond text-white'>
@@ -207,12 +207,12 @@ const FindRoom = () => {
               <div className='relative'>
                 <div className='overflow-hidden'>
                   <img
-                    src='/images/home-1/room-1.jpg '
+                    src='/images/home-1/inner_page/room-1.jpg '
                     className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                     alt='Image'
                   />
                 </div>
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -231,13 +231,13 @@ const FindRoom = () => {
                     <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                       Luxury Room
                     </h4>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                         Double Suite Rooms
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
@@ -245,7 +245,7 @@ const FindRoom = () => {
                       <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
-                            src='/images/home-1/room-bottom-icon.png'
+                            src='/images/home-1/inner_page/room-bottom-icon.png'
                             alt='Image'
                           />
                           <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -286,12 +286,12 @@ const FindRoom = () => {
               <div className='relative'>
                 <div className='overflow-hidden'>
                   <img
-                    src='/images/home-1/room-2.jpg '
+                    src='/images/home-1/inner_page/room-2.jpg '
                     className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                     alt='Image'
                   />
                 </div>
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -310,13 +310,13 @@ const FindRoom = () => {
                     <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                       Luxury Room
                     </h4>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                         Delux Family Rooms
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
@@ -324,7 +324,7 @@ const FindRoom = () => {
                       <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
-                            src='/images/home-1/room-bottom-icon.png'
+                            src='/images/home-1/inner_page/room-bottom-icon.png'
                             alt='Image'
                           />
                           <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -365,12 +365,12 @@ const FindRoom = () => {
               <div className='relative'>
                 <div className='overflow-hidden'>
                   <img
-                    src='/images/home-1/room-3.jpg '
+                    src='/images/home-1/inner_page/room-3.jpg '
                     className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                     alt='Image'
                   />
                 </div>
-                <Link href={'/room_details'}>
+                <Link href={'/inner_page/room_details'}>
                   <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                     View Details{' '}
                     <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -389,13 +389,13 @@ const FindRoom = () => {
                     <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                       Luxury Room
                     </h4>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                         Suprior Bed Rooms
                       </h2>
                     </Link>
                     <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                      1500 SQ.FT/Rooms
+                      1500 SQ.FT/inner_page/rooms
                     </p>
                   </div>
                   <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
@@ -403,7 +403,7 @@ const FindRoom = () => {
                       <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
-                            src='/images/home-1/room-bottom-icon.png'
+                            src='/images/home-1/inner_page/room-bottom-icon.png'
                             alt='Image'
                           />
                           <span className='ml-[10px] text-gray dark:text-lightGray'>

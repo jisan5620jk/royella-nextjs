@@ -210,7 +210,7 @@ const Navbar = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/room'
+                        href='/inner_page/room'
                         className='block py-2'
                       >
                         Room
@@ -230,7 +230,7 @@ const Navbar = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/room_details'
+                        href='/inner_page/room_details'
                         className='block py-2'
                       >
                         Room Details

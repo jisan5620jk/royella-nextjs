@@ -1,7 +1,7 @@
 'use client';
 
 import { useKeenSlider } from 'keen-slider/react';
-import './rooms.css';
+import './inner_page/rooms.css';
 import Link from 'next/link';
 
 const Rooms = () => {
@@ -64,7 +64,7 @@ const Rooms = () => {
                 <div className=' 3xl:w-[410px] group absolute top-[10px] xl:right-[-25px] 2xl:right-[-1px] 3xl:right-[-10px]'>
                   <div className='relative '>
                     <img
-                      src='/images/home-2/room-1.jpg '
+                      src='/images/home-2/inner_page/room-1.jpg '
                       className='w-full object-cover '
                       alt='Image'
                     />
@@ -72,7 +72,7 @@ const Rooms = () => {
                   <div className='font-Garamond bg-white dark:bg-lightBlack p-[35px] leading-[38px] text-lightBlack dark:text-white font-bold'>
                     <div>
                       <h3 className='text-2xl lg:text-[28px] '>
-                        <Link href='/home2/room'> Deluxe room </Link>
+                        <Link href='/home2/inner_page/room'> Deluxe room </Link>
                       </h3>
                       <p className='text-base md:text-[17px] leading-[38px] text-gray dark:text-lightGray font-Lora font-normal mt-1'>
                         Ocean view
@@ -111,7 +111,7 @@ const Rooms = () => {
                 <div className=' 3xl:w-[410px] group absolute top-[10px] xl:right-[-25px] 2xl:right-[-1px] 3xl:right-[-10px]'>
                   <div className='relative '>
                     <img
-                      src='/images/home-2/room-2.jpg '
+                      src='/images/home-2/inner_page/room-2.jpg '
                       className='w-full object-cover '
                       alt='Image'
                     />
@@ -119,7 +119,7 @@ const Rooms = () => {
                   <div className='font-Garamond bg-white dark:bg-lightBlack p-[35px] leading-[38px] text-lightBlack dark:text-white font-bold'>
                     <div>
                       <h3 className='text-2xl lg:text-[28px] '>
-                        <Link href='/home2/room'> Double Room </Link>
+                        <Link href='/home2/inner_page/room'> Double Room </Link>
                       </h3>
                       <p className='text-base md:text-[17px] leading-[38px] text-gray dark:text-lightGray font-Lora font-normal mt-1'>
                         Ocean view
@@ -159,7 +159,7 @@ const Rooms = () => {
                 <div className=' 3xl:w-[410px] group absolute top-[10px] xl:right-[-25px] 2xl:right-[-1px] 3xl:right-[-10px]'>
                   <div className='relative '>
                     <img
-                      src='/images/home-2/room-3.jpg '
+                      src='/images/home-2/inner_page/room-3.jpg '
                       className='w-full object-cover '
                       alt='Image'
                     />
@@ -167,7 +167,10 @@ const Rooms = () => {
                   <div className='font-Garamond bg-white dark:bg-lightBlack p-[35px] leading-[38px] text-lightBlack dark:text-white font-bold'>
                     <div>
                       <h3 className='text-2xl lg:text-[28px] '>
-                        <Link href='/home2/room'> Classic Room </Link>
+                        <Link href='/home2/inner_page/room'>
+                          {' '}
+                          Classic Room{' '}
+                        </Link>
                       </h3>
                       <p className='text-base md:text-[17px] leading-[38px] text-gray dark:text-lightGray font-Lora font-normal mt-1'>
                         Ocean view

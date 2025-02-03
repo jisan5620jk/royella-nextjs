@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import BlogSideBar from './BlogSideBar';
 import { BiChevronsRight } from 'react-icons/bi';
 

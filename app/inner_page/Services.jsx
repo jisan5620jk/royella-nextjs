@@ -1,5 +1,5 @@
 import { HiArrowLongRight } from 'react-icons/hi2';
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import Link from 'next/link';
 
 const Services = () => {

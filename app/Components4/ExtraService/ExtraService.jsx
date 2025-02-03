@@ -27,7 +27,7 @@ const ExtraService = () => {
               readymade swag. Selfies iPhone Kickstarter, drinking vinegar
             </p>
           </div>
-          <Link href={'/room'}>
+          <Link href={'/inner_page/room'}>
             <button className='btn-items text-sm md:text-base '>
               VIEW ALL ROOMS
             </button>
@@ -55,7 +55,7 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className='float-left'>
-                  <Link href={'/room_details'}>
+                  <Link href={'/inner_page/room_details'}>
                     <button className='btn-primary'>Learn more</button>
                   </Link>
                 </div>
@@ -81,7 +81,7 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className='float-left'>
-                  <Link href={'/room_details'}>
+                  <Link href={'/inner_page/room_details'}>
                     <button className='btn-primary'>Learn more</button>
                   </Link>
                 </div>
@@ -107,7 +107,7 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className='float-left'>
-                  <Link href={'/room_details'}>
+                  <Link href={'/inner_page/room_details'}>
                     <button className='btn-primary'>Learn more</button>
                   </Link>
                 </div>
@@ -136,7 +136,7 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className='float-left'>
-                  <Link href={'/room_details'}>
+                  <Link href={'/inner_page/room_details'}>
                     <button className='btn-primary'>Learn more</button>
                   </Link>
                 </div>
@@ -162,7 +162,7 @@ const ExtraService = () => {
                   of our complimentary shuttle serves local beers service.
                 </p>
                 <div className='float-left'>
-                  <Link href={'/room_details'}>
+                  <Link href={'/inner_page/room_details'}>
                     <button className='btn-primary'>Learn more</button>
                   </Link>
                 </div>

@@ -92,7 +92,7 @@ const Offers = () => {
 
                   <div className='bg-white dark:bg-lightBlack'>
                     <div className='py-[30px] text-center'>
-                      <Link href={'/room'}>
+                      <Link href={'/inner_page/room'}>
                         <h2
                           className='text-[24px] leading-[26px] font-semibold text-lightBlack dark:text-white hover:underline hover:text-khaki dark:hover:text-khaki transition-[0.4s] hover:underline-offset-2
                         '
@@ -128,7 +128,7 @@ const Offers = () => {
 
                   <div className='bg-white dark:bg-lightBlack'>
                     <div className='py-[30px] text-center'>
-                      <Link href={'/room'}>
+                      <Link href={'/inner_page/room'}>
                         <h2
                           className='text-[24px] leading-[26px] font-semibold text-lightBlack dark:text-white hover:underline hover:text-khaki dark:hover:text-khaki transition-[0.4s] hover:underline-offset-2
                         '
@@ -164,7 +164,7 @@ const Offers = () => {
 
                   <div className='bg-white dark:bg-lightBlack'>
                     <div className='py-[30px] text-center'>
-                      <Link href={'/room'}>
+                      <Link href={'/inner_page/room'}>
                         <h2
                           className='text-[24px] leading-[26px] font-semibold text-lightBlack dark:text-white hover:underline hover:text-khaki dark:hover:text-khaki transition-[0.4s] hover:underline-offset-2
                         '
@@ -200,7 +200,7 @@ const Offers = () => {
 
                   <div className='bg-white dark:bg-lightBlack'>
                     <div className='py-[30px] text-center'>
-                      <Link href={'/room'}>
+                      <Link href={'/inner_page/room'}>
                         <h2
                           className='text-[24px] leading-[26px] font-semibold text-lightBlack dark:text-white hover:underline hover:text-khaki dark:hover:text-khaki transition-[0.4s] hover:underline-offset-2
                         '

@@ -238,13 +238,13 @@ const Rooms = () => {
                     <div className='relative'>
                       <div className='overflow-hidden'>
                         <img
-                          src='/images/home-1/room-1.jpg '
+                          src='/images/home-1/inner_page/room-1.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                           alt='Image'
                         />
                       </div>
                       <div>
-                        <Link href={'/room_details'}>
+                        <Link href={'/inner_page/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
                             <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -264,13 +264,13 @@ const Rooms = () => {
                           <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                             Luxury Room
                           </h4>
-                          <Link href={'/room'}>
+                          <Link href={'/inner_page/room'}>
                             <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                               Double Suite Rooms
                             </h2>
                           </Link>
                           <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                            1500 SQ.FT/Rooms
+                            1500 SQ.FT/inner_page/rooms
                           </p>
                         </div>
                         <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
@@ -278,7 +278,7 @@ const Rooms = () => {
                             <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
-                                  src='/images/home-1/room-bottom-icon.png'
+                                  src='/images/home-1/inner_page/room-bottom-icon.png'
                                   alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -321,13 +321,13 @@ const Rooms = () => {
                     <div className='relative'>
                       <div className='overflow-hidden'>
                         <img
-                          src='/images/home-1/room-2.jpg '
+                          src='/images/home-1/inner_page/room-2.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                           alt='Image'
                         />
                       </div>
                       <div>
-                        <Link href={'/room_details'}>
+                        <Link href={'/inner_page/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
                             <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -347,13 +347,13 @@ const Rooms = () => {
                           <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                             Luxury Room
                           </h4>
-                          <Link href={'/room'}>
+                          <Link href={'/inner_page/room'}>
                             <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                               Delux Family Rooms
                             </h2>
                           </Link>
                           <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                            1500 SQ.FT/Rooms
+                            1500 SQ.FT/inner_page/rooms
                           </p>
                         </div>
                         <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
@@ -361,7 +361,7 @@ const Rooms = () => {
                             <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
-                                  src='/images/home-1/room-bottom-icon.png'
+                                  src='/images/home-1/inner_page/room-bottom-icon.png'
                                   alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -404,13 +404,13 @@ const Rooms = () => {
                     <div className='relative'>
                       <div className='overflow-hidden'>
                         <img
-                          src='/images/home-1/room-3.jpg '
+                          src='/images/home-1/inner_page/room-3.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                           alt='Image'
                         />
                       </div>
                       <div>
-                        <Link href={'/room_details'}>
+                        <Link href={'/inner_page/room_details'}>
                           <button className='flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki'>
                             View Details{' '}
                             <BsArrowRight className='w-4 h-4 ml-2  text-white' />{' '}
@@ -430,13 +430,13 @@ const Rooms = () => {
                           <h4 className='text-sm leading-[26px] text-khaki uppercase font-semibold'>
                             Luxury Room
                           </h4>
-                          <Link href={'/room'}>
+                          <Link href={'/inner_page/room'}>
                             <h2 className='text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
                               Suprior Bed Rooms
                             </h2>
                           </Link>
                           <p className='text-sm font-normal text-gray  dark:text-lightGray font-Lora'>
-                            1500 SQ.FT/Rooms
+                            1500 SQ.FT/inner_page/rooms
                           </p>
                         </div>
                         <div className='  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5'>
@@ -444,7 +444,7 @@ const Rooms = () => {
                             <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
-                                  src='/images/home-1/room-bottom-icon.png'
+                                  src='/images/home-1/inner_page/room-bottom-icon.png'
                                   alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>

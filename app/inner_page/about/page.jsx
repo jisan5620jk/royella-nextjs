@@ -64,7 +64,7 @@ const page = () => {
               data-aos-duration='1000'
             >
               <img
-                src='/images/inner/inner_page/about-thumb.jpg'
+                src='/images/inner/about-thumb.jpg'
                 alt='Image'
                 className='w-full h-full'
               />

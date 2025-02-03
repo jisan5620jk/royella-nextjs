@@ -1,4 +1,4 @@
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { GoDotFill } from 'react-icons/go';
 import AnimatedAccordionPage from './Accordion/AnimatedAccordionPage';
 

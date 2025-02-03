@@ -277,7 +277,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/room'
+                          href='/home5/inner_page/room'
                           className='block py-2'
                         >
                           Room
@@ -297,7 +297,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/room_details'
+                          href='/home5/inner_page/room_details'
                           className='block py-2'
                         >
                           Room Details

@@ -1,5 +1,5 @@
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import Link from 'next/link';
 import BlogSideBar from './BlogSideBar';
 

@@ -24,7 +24,7 @@ const HeroSection = () => {
             Great Moments
           </h1>
         </div>
-        <Link href={'/room'}>
+        <Link href={'/inner_page/room'}>
           <button className='btn-secondary lg:h-[55px] before:top-[3.3rem] lg:before:top-[4rem]'>
             ROOMS & SUITES
           </button>

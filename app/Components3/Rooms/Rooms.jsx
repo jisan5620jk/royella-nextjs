@@ -20,13 +20,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-1.jpg'
+                  src='/images/home-3/inner_page/room-1.jpg'
                   className='object-cover w-full '
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       Co-working suite For modern startups
                     </Link>
                   </h3>
@@ -35,7 +35,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING
@@ -51,13 +51,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-2.jpg'
+                  src='/images/home-3/inner_page/room-2.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       {' '}
                       The Grand Suite Do you feel great?
                     </Link>
@@ -67,7 +67,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING
@@ -83,13 +83,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-3.jpg'
+                  src='/images/home-3/inner_page/room-3.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       Double Deluxe This is classic best
                     </Link>
                   </h3>
@@ -98,7 +98,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING
@@ -114,13 +114,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-1.jpg'
+                  src='/images/home-3/inner_page/room-1.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       Co-working suite For modern startups
                     </Link>
                   </h3>
@@ -129,7 +129,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING
@@ -145,13 +145,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-2.jpg'
+                  src='/images/home-3/inner_page/room-2.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       {' '}
                       The Grand Suite Do you feel great?
                     </Link>
@@ -161,7 +161,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING
@@ -177,13 +177,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-3.jpg'
+                  src='/images/home-3/inner_page/room-3.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       Double Deluxe This is classic best
                     </Link>
                   </h3>
@@ -192,7 +192,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING
@@ -211,13 +211,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-1.jpg'
+                  src='/images/home-3/inner_page/room-1.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       Co-working suite For modern startups
                     </Link>
                   </h3>
@@ -226,7 +226,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING
@@ -242,13 +242,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-2.jpg'
+                  src='/images/home-3/inner_page/room-2.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       {' '}
                       The Grand Suite Do you feel great?
                     </Link>
@@ -258,7 +258,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING
@@ -274,13 +274,13 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/room-3.jpg'
+                  src='/images/home-3/inner_page/room-3.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
                 <div className='pt-[10px] pb-[5px] font-Garamond'>
                   <h3 className='text-[22px] sm:text-2xl lg:text-[28px] xl:text-[34px] leading-[26px] md:leading-9 xl:leading-[42px] text-lightBlack dark:text-white mt-[20px] mb-4 font-semibold  hover:text-khaki dark:hover:text-khaki cursor-pointer transition-all duration-300'>
-                    <Link href='/room_details'>
+                    <Link href='/inner_page/room_details'>
                       Double Deluxe This is classic best
                     </Link>
                   </h3>
@@ -289,7 +289,7 @@ const Rooms = () => {
                     design and central heating. All rooms include a 26-inch…
                   </p>
                   <Link
-                    href='/room_details'
+                    href='/inner_page/room_details'
                     className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-[38px] font-Garamond hover:text-khaki uppercase dark:hover:text-khaki font-semibold '
                   >
                     DETAILS & BOOKING

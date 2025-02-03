@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import FsLightbox from 'fslightbox-react';
 import { useState } from 'react';
@@ -39,7 +39,7 @@ const Gallery = () => {
             </h4>
 
             <p className='mt-2 text-sm leading-6 text-gray dark:text-lightGray font-normal font-Lora hover:text-khaki'>
-              <Link href='/home5/room'>Hotel Booking</Link>
+              <Link href='/home5/inner_page/room'>Hotel Booking</Link>
             </p>
           </div>
           {/* FsLight-box all images. */}
@@ -85,7 +85,7 @@ const Gallery = () => {
               </h4>
 
               <p className='mt-2 text-sm leading-6 text-gray dark:text-lightGray font-normal font-Lora'>
-                <Link href='/home5/room'>Hotel Booking</Link>
+                <Link href='/home5/inner_page/room'>Hotel Booking</Link>
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Gallery = () => {
               </h4>
 
               <p className='mt-2 text-sm leading-6 text-gray dark:text-lightGray font-normal font-Lora'>
-                <Link href='/home5/room'>Hotel Booking</Link>
+                <Link href='/home5/inner_page/room'>Hotel Booking</Link>
               </p>
             </div>
           </div>
@@ -151,7 +151,7 @@ const Gallery = () => {
             </h4>
 
             <p className='mt-2 text-sm leading-6 text-gray dark:text-lightGray font-normal font-Lora hover:text-khaki'>
-              <Link href='/home5/room'>Hotel Booking</Link>
+              <Link href='/home5/inner_page/room'>Hotel Booking</Link>
             </p>
           </div>
         </div>

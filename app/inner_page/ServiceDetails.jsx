@@ -1,5 +1,5 @@
 import { BsCheck2 } from 'react-icons/bs';
-import BreadCrumb from '../../BreadCrumb/BreadCrumb';
+import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { useEffect, useState } from 'react';
 
 const ServiceDetails = () => {

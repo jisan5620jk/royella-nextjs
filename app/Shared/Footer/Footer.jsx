@@ -9,12 +9,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const Footer = () => {
-  const [year, setYear] = useState('');
 
-  useEffect(() => {
-    const currentYear = new Date().getFullYear();
-    setYear(currentYear);
-  }, []);
   return (
     <>
       <Brand />
@@ -189,7 +184,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='text-center py-5 2xl:py-7 bg-[#161616] text-sm md:text-base text-lightGray font-Lora font-normal'>
-            © {year}, Royella. All Rights Reserved.
+            © {new Date().toLocaleDateString()}, Royella. All Rights Reserved.
           </div>
         </div>
       </footer>
