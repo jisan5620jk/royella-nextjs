@@ -16,6 +16,8 @@ import 'keen-slider/keen-slider.min.css';
 import FsLightbox from 'fslightbox-react';
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import Link from 'next/link';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Footer from '@/app/Shared/Footer/Footer';
 
 const page = () => {
   const [setCurrentSlide] = useState(0);
@@ -45,6 +47,7 @@ const page = () => {
 
   return (
     <section>
+      <Navbar />
       <BreadCrumb
         title='About Us'
         home={''}
@@ -61,7 +64,7 @@ const page = () => {
               data-aos-duration='1000'
             >
               <img
-                src='/images/inner/about-thumb.jpg'
+                src='/images/inner/inner_page/about-thumb.jpg'
                 alt='Image'
                 className='w-full h-full'
               />
@@ -696,6 +699,8 @@ const page = () => {
           </div>
         </section>
       </div>
+
+      <Footer />
     </section>
   );
 };

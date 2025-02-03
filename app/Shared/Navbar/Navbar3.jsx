@@ -195,7 +195,7 @@ const Navbar3 = () => {
                   : isActive
                   ? 'active'
                   : ''} text-lightBlack lg:text-white dark:text-white  lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 hover:text-khaki `}
-              href='/home3/about'
+              href='/home3/inner_page/about'
             >
               About
             </Link>
@@ -269,7 +269,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/about'
+                        href='/home3/inner_page/about'
                         className='py-2 block'
                       >
                         ABOUT US

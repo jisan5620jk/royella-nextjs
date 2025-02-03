@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
@@ -18,7 +18,7 @@ const WelcomeSection = () => {
           data-aos-duration='1000'
         >
           <img
-            src='/images/home-4/about-thumb.png'
+            src='/images/home-4/inner_page/about-thumb.png'
             alt='Image'
             className='w-full h-full object-cover '
           />
@@ -59,7 +59,7 @@ const WelcomeSection = () => {
             Aenean hendrerit maximus aliquet. Pellentesque interdum odio dui,
             vitae ele Aenean hendrerit maximus aliquet.
           </p>
-          <Link href={'/about'}>
+          <Link href={'/inner_page/about'}>
             <button className='btn-primary text-base leading-[38px] font-medium font-Garamond'>
               LEARN MORE
             </button>

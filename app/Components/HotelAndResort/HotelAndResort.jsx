@@ -92,7 +92,7 @@ const HotelAndResort = () => {
                 <span className='w-[60px] h-[2px] bg-khaki rounded-full absolute -top-[0px] animation-move1'></span>
               </div>
             </div>
-            <Link href={'/about'}>
+            <Link href={'/inner_page/about'}>
               <button className='btn-primary '>More About</button>
             </Link>
           </div>

@@ -190,7 +190,7 @@ const Apartments = () => {
             <div className='sm:flex items-center  mt-10 lg:mt-[30px] xl:mt-10 2xl:mt-[50px] sm:justify-between flex-col sm:flex-row '>
               <div className='flex items-center'>
                 <img
-                  src='/images/home-5/about-author.png'
+                  src='/images/home-5/inner_page/about-author.png'
                   className='w-[45px] 2xl:w-[60px]'
                   alt='Image'
                 />

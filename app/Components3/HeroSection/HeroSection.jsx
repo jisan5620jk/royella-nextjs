@@ -15,7 +15,7 @@ const HeroSection = () => {
           <h1 className='text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-[80px] font-bold leading-[28px] md:leading-9 2xl:leading-[100px] mt-4 mb-5 md:mb-7'>
             A New Vision Of Comfort
           </h1>
-          <Link href={'/about'}>
+          <Link href={'/inner_page/about'}>
             <button className='btn-secondary lg:h-[55px] before:top-[3.3rem] lg:before:top-[4rem]'>
               Discover more
             </button>

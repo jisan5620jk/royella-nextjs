@@ -204,7 +204,7 @@ const Navbar4 = () => {
                   : isActive
                   ? 'active'
                   : ''} text-lightBlack  dark:text-white hover:text-khaki dark:hover:text-khaki  lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
-              href='/home4/about'
+              href='/home4/inner_page/about'
             >
               About
             </Link>
@@ -278,7 +278,7 @@ const Navbar4 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home4/about'
+                        href='/home4/inner_page/about'
                         className='py-2 block'
                       >
                         ABOUT US

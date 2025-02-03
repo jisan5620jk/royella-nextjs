@@ -53,7 +53,7 @@ const HeroSection = () => {
                   IN CALIFORNIA
                 </h1>
               </div>
-              <Link href={'/about'}>
+              <Link href={'/inner_page/about'}>
                 <button
                   className='w-[185px] h-[48px] lg:h-[56px] bg-khaki relative before:w-8 before:h-[1px] before:bg-khaki before:absolute before:left-0 before:top-16 
                 text-base
@@ -94,7 +94,7 @@ const HeroSection = () => {
                   IN KASHMIR
                 </h1>
               </div>
-              <Link href={'/about'}>
+              <Link href={'/inner_page/about'}>
                 <button
                   className='w-[185px] h-[48px] lg:h-[56px] bg-khaki relative before:w-8 before:h-[1px] before:bg-khaki before:absolute before:left-0 before:top-16 
                 text-base
@@ -135,7 +135,7 @@ const HeroSection = () => {
                   IN COLOSSEUM
                 </h1>
               </div>
-              <Link href={'/about'}>
+              <Link href={'/inner_page/about'}>
                 <button
                   className='w-[185px] h-[48px] lg:h-[56px] bg-khaki relative before:w-8 before:h-[1px] before:bg-khaki before:absolute before:left-0 before:top-16 
                 text-base
@@ -175,7 +175,7 @@ const HeroSection = () => {
                   IN SRILANKA
                 </h1>
               </div>
-              <Link href={'/about'}>
+              <Link href={'/inner_page/about'}>
                 <button
                   className='w-[185px] h-[48px] lg:h-[56px] bg-khaki relative before:w-8 before:h-[1px] before:bg-khaki before:absolute before:left-0 before:top-16 
                 text-base
