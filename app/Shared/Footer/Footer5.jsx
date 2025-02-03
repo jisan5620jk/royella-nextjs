@@ -8,7 +8,12 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const Footer5 = () => {
+  const [year, setYear] = useState('');
 
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    setYear(currentYear);
+  }, []);
   return (
     <footer className="relative   bg-[url('/images/home-5/footer-bg.jpg')] bg-cover bg-center bg-no-repeat pt-10">
       <div className='Container grid items-start grid-cols-1 sm:grid-cols-2 lg:grid-cols-6  xl:grid-cols-6 justify-between  gap-x-5 sm:gap-x-0 md:gap-x-5 lg:gap-x-3 gap-y-[30px] px-5  py-20 2xl:pt-[120px]'>
@@ -198,8 +203,8 @@ const Footer5 = () => {
         <div className='Container '>
           <hr className=' text-white text-opacity-10 ' />
           <p className='text-sm sm:text-base md:text-lg  leading-[27px] text-[#f7f9fb] font-normal font-Lora text-center py-[30px]'>
-            Royella &copy; {new Date().toLocaleDateString()}.<b>Royella</b> All
-            Rights Reserved By <span className='text-khaki'>Dream IT</span>
+            Royella &copy; {year}.<b>Royella</b> All Rights Reserved By{' '}
+            <span className='text-khaki'>Dream IT</span>
           </p>
         </div>
       </div>

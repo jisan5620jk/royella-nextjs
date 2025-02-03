@@ -6,7 +6,12 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const Footer4 = () => {
+  const [year, setYear] = useState('');
 
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    setYear(currentYear);
+  }, []);
   return (
     <footer className='bg-lightBlack dark:bg-normalBlack'>
       <div className='  '>
@@ -175,8 +180,7 @@ const Footer4 = () => {
       Container '
       >
         <p className='text-center'>
-          © {new Date().toLocaleDateString()} All Rights Reserved Royella Luxury
-          Hotel
+          © {year} All Rights Reserved Royella Luxury Hotel
         </p>
         <p className='flex items-center space-x-1 text-center justify-center mt-[6px] lg:mt-0'>
           <Link
