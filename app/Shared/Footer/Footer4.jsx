@@ -1,17 +1,10 @@
-'use client';
-
 import { BiLogoLinkedin, BiLogoYoutube } from 'react-icons/bi';
 import { FaFacebookF, FaPinterestP, FaTwitter } from 'react-icons/fa';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const Footer4 = () => {
-  const [year, setYear] = useState('');
 
-  useEffect(() => {
-    const currentYear = new Date().getFullYear();
-    setYear(currentYear);
-  }, []);
   return (
     <footer className='bg-lightBlack dark:bg-normalBlack'>
       <div className='  '>
@@ -180,7 +173,7 @@ const Footer4 = () => {
       Container '
       >
         <p className='text-center'>
-          © {year} All Rights Reserved Royella Luxury Hotel
+          © 2025. All Rights Reserved Royella Luxury Hotel
         </p>
         <p className='flex items-center space-x-1 text-center justify-center mt-[6px] lg:mt-0'>
           <Link

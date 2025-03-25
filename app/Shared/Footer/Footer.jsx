@@ -1,20 +1,12 @@
-'use client';
-
 import { IoIosCall } from 'react-icons/io';
 import { IoLocationSharp } from 'react-icons/io5';
 import Brand from '../../Components/Brand/Brand';
 import { BiEnvelope, BiLogoLinkedin } from 'react-icons/bi';
 import { FaFacebookF, FaPinterestP, FaTwitter } from 'react-icons/fa';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 
 const Footer = () => {
-  const [year, setYear] = useState('');
 
-  useEffect(() => {
-    const currentYear = new Date().getFullYear();
-    setYear(currentYear);
-  }, []);
   return (
     <>
       <Brand />
@@ -189,7 +181,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='text-center py-5 2xl:py-7 bg-[#161616] text-sm md:text-base text-lightGray font-Lora font-normal'>
-            © {year}, Royella. All Rights Reserved.
+            © 2025, Royella. All Rights Reserved.
           </div>
         </div>
       </footer>

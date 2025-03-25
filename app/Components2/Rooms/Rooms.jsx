@@ -1,7 +1,7 @@
 'use client';
 
 import { useKeenSlider } from 'keen-slider/react';
-import './inner_page/rooms.css';
+import './rooms.css';
 import Link from 'next/link';
 
 const Rooms = () => {

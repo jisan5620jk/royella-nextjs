@@ -1,15 +1,7 @@
-'use client';
-
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 
 const Footer2 = () => {
-  const [year, setYear] = useState('');
 
-  useEffect(() => {
-    const currentYear = new Date().getFullYear();
-    setYear(currentYear);
-  }, []);
   return (
     <footer className='lg:pt-[100px]  dark:bg-lightBlack '>
       <div className=' py-20 2xl:py-[120px]'>
@@ -128,7 +120,7 @@ const Footer2 = () => {
             className='text-sm xl:text-base text-gray dark:text-lightGray
            font-Lora font-normal'
           >
-            © {year} Royella. All Rights Reserved.
+            © 2025 Royella. All Rights Reserved.
           </p>
           <p
             className='text-sm xl:text-base text-gray dark:text-lightGray
