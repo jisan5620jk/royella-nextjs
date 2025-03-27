@@ -15,10 +15,10 @@ const Apartments = () => {
             <div>
               <img
                 src='/images/home-5/Apartment1.png'
-                className='mx-auto pb-[10px] hover:filter group-hover:brightness-0 invert-[1] transition-all duration-500'
+                className='mx-auto pb-[10px] group-hover:brightness-0 group-hover:invert-[1] transition-all duration-500'
                 alt='Image'
               />
-              <h4 className='text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl leading-4 text-gray dark:text-lightGray group-hover:text-white font-bold font-Garamond text-center'>
+              <h4 className='text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl leading-4 text-gray dark:text-lightGray transition-all duration-500 group-hover:text-white font-bold font-Garamond text-center'>
                 Air-conditioned
               </h4>
             </div>
@@ -31,10 +31,10 @@ const Apartments = () => {
             <div>
               <img
                 src='/images/home-5/Apartment2.png'
-                className='mx-auto pb-[10px] filter dark:brightness-0 group-hover:brightness-0 invert-[1] transition-all duration-500'
+                className='mx-auto pb-[10px] brightness-0 opacity-70 group-hover:opacity-100 group-hover:brightness-100  transition-all duration-500'
                 alt='Image'
               />
-              <h4 className='text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl leading-4 text-gray dark:text-lightGray group-hover:text-white font-bold font-Garamond text-center'>
+              <h4 className='text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl leading-4 text-gray dark:text-lightGray transition-all duration-500 group-hover:text-white font-bold font-Garamond text-center'>
                 Airport transfer
               </h4>
             </div>
@@ -47,10 +47,10 @@ const Apartments = () => {
             <div>
               <img
                 src='/images/home-5/Apartment3.png'
-                className='mx-auto pb-[10px] hover:filter group-hover:brightness-0 invert-[1] transition-all duration-500'
+                className='mx-auto pb-[10px] group-hover:brightness-0 group-hover:invert-[1] transition-all duration-500'
                 alt='Image'
               />
-              <h4 className='text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl leading-4 text-gray dark:text-lightGray group-hover:text-white font-bold font-Garamond text-center'>
+              <h4 className='text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl leading-4 text-gray dark:text-lightGray transition-all duration-500 group-hover:text-white font-bold font-Garamond text-center'>
                 All inclusive
               </h4>
             </div>
@@ -63,10 +63,10 @@ const Apartments = () => {
             <div>
               <img
                 src='/images/home-5/Apartment4.png'
-                className='mx-auto pb-[10px] hover:filter group-hover:brightness-0 invert-[1] transition-all duration-500'
+                className='mx-auto pb-[10px] group-hover:brightness-0 group-hover:invert-[1] transition-all duration-500'
                 alt='Image'
               />
-              <h4 className='text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl leading-4 text-gray dark:text-lightGray group-hover:text-white font-bold font-Garamond text-center'>
+              <h4 className='text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl leading-4 text-gray dark:text-lightGray transition-all duration-500 group-hover:text-white font-bold font-Garamond text-center'>
                 Under protection
               </h4>
             </div>
@@ -190,7 +190,7 @@ const Apartments = () => {
             <div className='sm:flex items-center  mt-10 lg:mt-[30px] xl:mt-10 2xl:mt-[50px] sm:justify-between flex-col sm:flex-row '>
               <div className='flex items-center'>
                 <img
-                  src='/images/home-5/inner_page/about-author.png'
+                  src='/images/home-5/about-author.png'
                   className='w-[45px] 2xl:w-[60px]'
                   alt='Image'
                 />

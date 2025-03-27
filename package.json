@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-     "format": "prettier --write ./**/*.{js,jsx,ts,tsx,css,md,json} --list-different --config ./.prettierrc.json"
+    "lint": "next lint"
   },
   "dependencies": {
     "aos": "^2.3.4",
