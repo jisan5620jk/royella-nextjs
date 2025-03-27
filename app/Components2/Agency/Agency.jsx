@@ -57,7 +57,7 @@ const Agency = () => {
               tempor incididunt resort sweet spring which I enjoy with my whole
               heart.
             </p>
-            <Link href={'/find_room'}>
+            <Link href={'/inner_page/find_room'}>
               <button className='btn-primary mt-[25px]'>SEE MORE TOUR</button>
             </Link>
           </div>

@@ -1,8 +1,12 @@
+'use client';
+
 import { BsCheck2 } from 'react-icons/bs';
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { useEffect, useState } from 'react';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Footer from '@/app/Shared/Footer/Footer';
 
-const ServiceDetails = () => {
+const page = () => {
   const [menu, setMenu] = useState([]);
   const [showItem, setShowItem] = useState([]);
   useEffect(() => {
@@ -15,6 +19,7 @@ const ServiceDetails = () => {
 
   return (
     <section className=''>
+      <Navbar />
       <BreadCrumb title='Service Details' />
 
       {/* Service Details content */}
@@ -322,8 +327,10 @@ const ServiceDetails = () => {
           </div>
         </div>
       </div>
+      
+      <Footer />
     </section>
   );
 };
 
-export default ServiceDetails;
+export default page;

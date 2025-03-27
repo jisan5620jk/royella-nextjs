@@ -185,7 +185,7 @@ const Rooms = () => {
               </div>
             </div>
           </div>
-          <Link href={'/find_room'}>
+          <Link href={'/inner_page/find_room'}>
             <button className='w-[142px] h-10 lg:h-[50px] text-[15px] bg-khaki font-Garamond border border-khaki text-white mx-auto col-span-2  md:col-span-1 lg:col-span-1 relative z-10 before:absolute before:top-0 before:right-0 before:-z-10 before:w-0 before:h-full before:bg-lightBlack before:transition-all before:duration-500 hover:before:w-full hover:before:left-0'>
               Checkout Now
             </button>
@@ -238,7 +238,7 @@ const Rooms = () => {
                     <div className='relative'>
                       <div className='overflow-hidden'>
                         <img
-                          src='/images/home-1/inner_page/room-1.jpg '
+                          src='/images/home-1/room-1.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                           alt='Image'
                         />
@@ -278,7 +278,7 @@ const Rooms = () => {
                             <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
-                                  src='/images/home-1/inner_page/room-bottom-icon.png'
+                                  src='/images/home-1/room-bottom-icon.png'
                                   alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -321,7 +321,7 @@ const Rooms = () => {
                     <div className='relative'>
                       <div className='overflow-hidden'>
                         <img
-                          src='/images/home-1/inner_page/room-2.jpg '
+                          src='/images/home-1/room-2.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                           alt='Image'
                         />
@@ -361,7 +361,7 @@ const Rooms = () => {
                             <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
-                                  src='/images/home-1/inner_page/room-bottom-icon.png'
+                                  src='/images/home-1/room-bottom-icon.png'
                                   alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -404,7 +404,7 @@ const Rooms = () => {
                     <div className='relative'>
                       <div className='overflow-hidden'>
                         <img
-                          src='/images/home-1/inner_page/room-3.jpg '
+                          src='/images/home-1/room-3.jpg '
                           className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                           alt='Image'
                         />
@@ -444,7 +444,7 @@ const Rooms = () => {
                             <div>
                               <span className='font-Lora text-base flex items-center '>
                                 <img
-                                  src='/images/home-1/inner_page/room-bottom-icon.png'
+                                  src='/images/home-1/room-bottom-icon.png'
                                   alt='Image'
                                 />
                                 <span className='ml-[10px] text-gray dark:text-lightGray'>

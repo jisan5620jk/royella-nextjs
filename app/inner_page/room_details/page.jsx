@@ -1,19 +1,20 @@
+'use client';
+
 import { BsArrowLeft, BsArrowRight, BsCheck2 } from 'react-icons/bs';
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { useState } from 'react';
 import { FiLogOut } from 'react-icons/fi';
-import { useLocation, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Footer from '@/app/Shared/Footer/Footer';
 
-const RoomDetails = () => {
+const page = () => {
   const [imageIndex, setImageIndex] = useState(0);
-  const location = useLocation();
   const bookingsData = location.state && location.state;
 
-  const navigate = useNavigate();
   const images = [
-    '/images/inner/inner_page/room-details-1.jpg',
-    '/images/inner/inner_page/room-details-2.jpg',
+    '/images/inner/room-details-1.jpg',
+    '/images/inner/room-details-2.jpg',
   ];
 
   const prevBtn = () => {
@@ -34,7 +35,7 @@ const RoomDetails = () => {
       showCancelButton: true,
       confirmButtonColor: '#008000',
       cancelButtonColor: '#d33',
-      confirmButtonText: 'Yes, i want!',
+      confirmButtonText: 'Yes, I want!',
       color: '#fff',
       background: '#c19d68',
     }).then((result) => {
@@ -53,6 +54,7 @@ const RoomDetails = () => {
   };
   return (
     <section className=''>
+      <Navbar />
       <BreadCrumb title='room details' />
 
       {/* Room Details */}
@@ -375,7 +377,7 @@ const RoomDetails = () => {
               <div className='grid items-center '>
                 <div className='flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray'>
                   <img
-                    src='/images/inner/inner_page/room-amenities-1.png'
+                    src='/images/inner/room-amenities-1.png'
                     className='text-khaki mr-2 md:mr-3 xl:mr-[15px]'
                   />
                   <span className='text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora'>
@@ -384,7 +386,7 @@ const RoomDetails = () => {
                 </div>
                 <div className='flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray'>
                   <img
-                    src='/images/inner/inner_page/room-amenities-2.png'
+                    src='/images/inner/room-amenities-2.png'
                     className='text-khaki mr-2 md:mr-3 xl:mr-[15px]'
                   />
                   <span className='text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora'>
@@ -393,7 +395,7 @@ const RoomDetails = () => {
                 </div>
                 <div className='flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray'>
                   <img
-                    src='/images/inner/inner_page/room-amenities-3.png'
+                    src='/images/inner/room-amenities-3.png'
                     className='text-khaki mr-2 md:mr-3 xl:mr-[15px]'
                   />
                   <span className='text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora'>
@@ -402,7 +404,7 @@ const RoomDetails = () => {
                 </div>
                 <div className='flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray'>
                   <img
-                    src='/images/inner/inner_page/room-amenities-4.png'
+                    src='/images/inner/room-amenities-4.png'
                     className='text-khaki mr-2 md:mr-3 xl:mr-[15px]'
                   />
                   <span className='text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora'>
@@ -411,7 +413,7 @@ const RoomDetails = () => {
                 </div>
                 <div className='flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray'>
                   <img
-                    src='/images/inner/inner_page/room-amenities-5.png'
+                    src='/images/inner/room-amenities-5.png'
                     className='text-khaki mr-2 md:mr-3 xl:mr-[15px]'
                   />
                   <span className='text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora'>
@@ -420,7 +422,7 @@ const RoomDetails = () => {
                 </div>
                 <div className='flex items-center py-5 '>
                   <img
-                    src='/images/inner/inner_page/room-amenities-6.png'
+                    src='/images/inner/room-amenities-6.png'
                     className='text-khaki mr-2 md:mr-3 xl:mr-[15px]'
                   />
                   <span className='text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora'>
@@ -432,8 +434,10 @@ const RoomDetails = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </section>
   );
 };
 
-export default RoomDetails;
+export default page;

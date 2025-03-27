@@ -20,7 +20,7 @@ const Facilities = () => {
             </h1>
           </div>
           <div className='mt-5 md:mt-0'>
-            <Link href={'/services'}>
+            <Link href={'/inner_page/services'}>
               <button className='btn-items'>view more item</button>
             </Link>
           </div>
@@ -51,7 +51,10 @@ const Facilities = () => {
                 Fitness
               </h4>
               <h1 className='text-2xl md:text-3xl 2xl:text-[32px] leading-[26px] font-semibold text-lightBlack dark:text-white'>
-                <Link href={'/service_details'}> Gym Training Grounds</Link>
+                <Link href={'/inner_page/service_details'}>
+                  {' '}
+                  Gym Training Grounds
+                </Link>
               </h1>
 
               <p className='font-Lora text-sm sm:text-base text-gray dark:text-lightGray leading-[26px] font-normal my-10 lg:mt-[46px] lg:mb-[40px] before:absolute before:h-[30px] before:left-0 before:top-[-35px] before:bg-[#ddd] before:w-[1px] relative'>
@@ -59,7 +62,7 @@ const Facilities = () => {
                 after model. Appropriately create interactive infrastructures
                 after are Holisticly facilitate stand-alone
               </p>
-              <Link href={'/service_details'}>
+              <Link href={'/inner_page/service_details'}>
                 <HiArrowLongRight
                   size={30}
                   className='text-gray hover:text-khaki'
@@ -80,7 +83,10 @@ const Facilities = () => {
                 Fitness
               </h4>
               <h1 className='text-2xl md:text-3xl 2xl:text-[32px] leading-[26px] font-semibold text-lightBlack dark:text-white'>
-                <Link href={'/service_details'}> Indoor Swimming Pool</Link>
+                <Link href={'/inner_page/service_details'}>
+                  {' '}
+                  Indoor Swimming Pool
+                </Link>
               </h1>
 
               <p className='font-Lora relative text-sm sm:text-base text-gray dark:text-lightGray leading-[26px] font-normal my-10 lg:mt-[46px] lg:mb-[40px] before:absolute before:h-[30px] before:left-0 before:top-[-35px] before:bg-[#ddd] before:w-[1px]'>
@@ -88,7 +94,7 @@ const Facilities = () => {
                 after model. Appropriately create interactive infrastructures
                 after are Holisticly facilitate stand-alone
               </p>
-              <Link href={'/service_details'}>
+              <Link href={'/inner_page/service_details'}>
                 <HiArrowLongRight
                   className='text-gray hover:text-khaki'
                   size={30}
@@ -133,7 +139,10 @@ const Facilities = () => {
                 FOODS
               </h4>
               <h1 className='text-2xl md:text-3xl 2xl:text-[32px] leading-[26px] font-semibold text-lightBlack dark:text-white'>
-                <Link href={'/service_details'}> The Restaurant Center</Link>
+                <Link href={'/inner_page/service_details'}>
+                  {' '}
+                  The Restaurant Center
+                </Link>
               </h1>
 
               <p className='font-Lora text-sm sm:text-base text-gray dark:text-lightGray leading-[26px] font-normal my-10 lg:mt-[46px] lg:mb-[40px] relative before:absolute before:h-[30px] before:left-0 before:top-[-35px] before:bg-[#ddd] before:w-[1px]'>
@@ -141,7 +150,7 @@ const Facilities = () => {
                 after model. Appropriately create interactive infrastructures
                 after are Holisticly facilitate stand-alone
               </p>
-              <Link href={'/service_details'}>
+              <Link href={'/inner_page/service_details'}>
                 <HiArrowLongRight
                   className='text-gray hover:text-khaki'
                   size={30}
@@ -162,7 +171,10 @@ const Facilities = () => {
                 EXPERIENCE
               </h4>
               <h1 className='text-2xl md:text-3xl 2xl:text-[32px] leading-[26px] font-semibold text-lightBlack dark:text-white'>
-                <Link href={'/service_details'}> Gym Training Grounds</Link>
+                <Link href={'/inner_page/service_details'}>
+                  {' '}
+                  Gym Training Grounds
+                </Link>
               </h1>
 
               <p className='font-Lora relative text-sm sm:text-base text-gray dark:text-lightGray leading-[26px] font-normal my-10 lg:mt-[46px] lg:mb-[40px] before:absolute before:h-[30px] before:left-0 before:top-[-35px] before:bg-[#ddd] before:w-[1px]'>
@@ -170,7 +182,7 @@ const Facilities = () => {
                 after model. Appropriately create interactive infrastructures
                 after are Holisticly facilitate stand-alone
               </p>
-              <Link href={'/service_details'}>
+              <Link href={'/inner_page/service_details'}>
                 <HiArrowLongRight
                   className='text-gray hover:text-khaki'
                   size={30}

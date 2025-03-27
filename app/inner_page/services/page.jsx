@@ -1,10 +1,13 @@
 import { HiArrowLongRight } from 'react-icons/hi2';
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import Link from 'next/link';
+import Footer from '@/app/Shared/Footer/Footer';
+import Navbar from '@/app/Shared/Navbar/Navbar';
 
-const Services = () => {
+const page = () => {
   return (
     <section>
+      <Navbar />
       <BreadCrumb title='services' />
 
       {/* service page content */}
@@ -25,7 +28,7 @@ const Services = () => {
               </h1>
             </div>
             <div className='mt-5 md:mt-0'>
-              <Link href='/our_team'>
+              <Link href='/inner_page/team'>
                 <button className='btn-items'>view more item</button>
               </Link>
             </div>
@@ -56,7 +59,9 @@ const Services = () => {
                   Fitness
                 </h4>
                 <h1 className='text-2xl md:text-3xl 2xl:text-[32px] leading-[26px] font-semibold text-lightBlack dark:text-white'>
-                  <Link href='/service_details'>Gym Training Grounds</Link>
+                  <Link href='/inner_page/service_details'>
+                    Gym Training Grounds
+                  </Link>
                 </h1>
 
                 <p className='font-Lora text-sm sm:text-base text-gray dark:text-lightGray leading-[26px] font-normal my-10 lg:mt-[46px] lg:mb-[40px] before:absolute before:h-[30px] before:left-0 before:top-[-35px] before:bg-[#ddd] before:w-[1px] relative'>
@@ -64,7 +69,7 @@ const Services = () => {
                   after model. Appropriately create interactive infrastructures
                   after are Holisticly facilitate stand-alone
                 </p>
-                <Link href='/service_details'>
+                <Link href='/inner_page/service_details'>
                   <HiArrowLongRight
                     size={30}
                     className='text-gray hover:text-khaki'
@@ -85,7 +90,10 @@ const Services = () => {
                   Fitness
                 </h4>
                 <h1 className='text-2xl md:text-3xl 2xl:text-[32px] leading-[26px] font-semibold text-lightBlack dark:text-white'>
-                  <Link href='/service_details'> Indoor Swimming Pool</Link>
+                  <Link href='/inner_page/service_details'>
+                    {' '}
+                    Indoor Swimming Pool
+                  </Link>
                 </h1>
 
                 <p className='font-Lora relative text-sm sm:text-base text-gray dark:text-lightGray leading-[26px] font-normal my-10 lg:mt-[46px] lg:mb-[40px] before:absolute before:h-[30px] before:left-0 before:top-[-35px] before:bg-[#ddd] before:w-[1px]'>
@@ -93,7 +101,7 @@ const Services = () => {
                   after model. Appropriately create interactive infrastructures
                   after are Holisticly facilitate stand-alone
                 </p>
-                <Link href='/service_details'>
+                <Link href='/inner_page/service_details'>
                   <HiArrowLongRight
                     className='text-gray hover:text-khaki'
                     size={30}
@@ -138,7 +146,9 @@ const Services = () => {
                   FOODS
                 </h4>
                 <h1 className='text-2xl md:text-3xl 2xl:text-[32px] leading-[26px] font-semibold text-lightBlack dark:text-white'>
-                  <Link href='/service_details'>The Restaurant Center</Link>
+                  <Link href='/inner_page/service_details'>
+                    The Restaurant Center
+                  </Link>
                 </h1>
 
                 <p className='font-Lora text-sm sm:text-base text-gray dark:text-lightGray leading-[26px] font-normal my-10 lg:mt-[46px] lg:mb-[40px] relative before:absolute before:h-[30px] before:left-0 before:top-[-35px] before:bg-[#ddd] before:w-[1px]'>
@@ -146,7 +156,7 @@ const Services = () => {
                   after model. Appropriately create interactive infrastructures
                   after are Holisticly facilitate stand-alone
                 </p>
-                <Link href='/service_details'>
+                <Link href='/inner_page/service_details'>
                   <HiArrowLongRight
                     className='text-gray hover:text-khaki'
                     size={30}
@@ -167,7 +177,9 @@ const Services = () => {
                   EXPERIENCE
                 </h4>
                 <h1 className='text-2xl md:text-3xl 2xl:text-[32px] leading-[26px] font-semibold text-lightBlack dark:text-white'>
-                  <Link href='/service_details'>Gym Training Grounds</Link>
+                  <Link href='/inner_page/service_details'>
+                    Gym Training Grounds
+                  </Link>
                 </h1>
 
                 <p className='font-Lora relative text-sm sm:text-base text-gray dark:text-lightGray leading-[26px] font-normal my-10 lg:mt-[46px] lg:mb-[40px] before:absolute before:h-[30px] before:left-0 before:top-[-35px] before:bg-[#ddd] before:w-[1px]'>
@@ -175,7 +187,7 @@ const Services = () => {
                   after model. Appropriately create interactive infrastructures
                   after are Holisticly facilitate stand-alone
                 </p>
-                <Link href='/service_details'>
+                <Link href='/inner_page/service_details'>
                   <HiArrowLongRight
                     className='text-gray hover:text-khaki'
                     size={30}
@@ -199,8 +211,9 @@ const Services = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </section>
   );
 };
 
-export default Services;
+export default page;

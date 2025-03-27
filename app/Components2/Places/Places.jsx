@@ -24,7 +24,7 @@ const Places = () => {
             these royella dolor consectetur adipiscing elit dos eiusmod tempor
             incididunt resort sweet spring
           </p>
-          <Link href={'/services'}>
+          <Link href={'/inner_page/services'}>
             <button className='btn-primary 2xl:w-[200px]'>
               MORE OUR PLACES
             </button>

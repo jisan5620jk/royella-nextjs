@@ -73,7 +73,7 @@ const Rooms = () => {
               {' '}
               <div className='relative'>
                 <img
-                  src='/images/home-5/inner_page/room-3.jpg'
+                  src='/images/home-5/room-3.jpg'
                   alt='room_images_one'
                   className='w-full h-full'
                 />
@@ -96,7 +96,7 @@ const Rooms = () => {
               </div>
               <div className='px-5 py-7 xl:px-[30px] xl:py-[34px]'>
                 <h3 className='text-white  text-lg md:text-xl 2xl:text-[22px] leading-[30px] font-normal font-Lora mb-6'>
-                  <Link href='/home5/inner_page/room'>Single Room</Link>
+                  <Link href='/inner_page/room'>Single Room</Link>
                 </h3>
                 <p className='text-lightGray text-sm sm:text-base leading-[26px] font-normal font-Lora'>
                   Located Square, The CozyStay Apartment Private Reteat in The
@@ -107,7 +107,7 @@ const Rooms = () => {
                   <p className='text-Lora text-[15px] sm:text-[18px] leading-6 font-normal text-white'>
                     <span className='text-khaki font-bold '>$49</span> Per Night
                   </p>
-                  <Link href={'/find_room'}>
+                  <Link href={'/inner_page/find_room'}>
                     <button className='btn-primary1'>BOOK NOW</button>
                   </Link>
                 </div>
@@ -122,7 +122,7 @@ const Rooms = () => {
             >
               <div className='relative'>
                 <img
-                  src='/images/home-5/inner_page/room-5.jpg'
+                  src='/images/home-5/room-5.jpg'
                   alt='room_images_one'
                   className='w-full h-full'
                 />
@@ -145,7 +145,7 @@ const Rooms = () => {
               </div>
               <div className='px-5 py-7 xl:px-[30px] xl:py-[34px]'>
                 <h3 className='text-white  text-lg md:text-xl 2xl:text-[22px] leading-[30px] font-normal font-Lora mb-6'>
-                  <Link href='/home5/inner_page/room'>Double Room</Link>
+                  <Link href='/inner_page/room'>Double Room</Link>
                 </h3>
                 <p className='text-lightGray text-sm sm:text-base leading-[26px] font-normal font-Lora'>
                   Located Square, The CozyStay Apartment Private Reteat in The
@@ -156,7 +156,7 @@ const Rooms = () => {
                   <p className='text-Lora text-[15px] sm:text-[18px] leading-6 font-normal text-white'>
                     <span className='text-khaki font-bold '>$49</span> Per Night
                   </p>
-                  <Link href={'/find_room'}>
+                  <Link href={'/inner_page/find_room'}>
                     <button className='btn-primary1'>BOOK NOW</button>
                   </Link>
                 </div>
@@ -171,7 +171,7 @@ const Rooms = () => {
             >
               <div className='relative'>
                 <img
-                  src='/images/home-5/inner_page/room-4.jpg'
+                  src='/images/home-5/room-4.jpg'
                   alt='room_images_one'
                   className='w-full h-full'
                 />
@@ -194,7 +194,7 @@ const Rooms = () => {
               </div>
               <div className='px-5 py-7 xl:px-[30px] xl:py-[34px]'>
                 <h3 className='text-white  text-lg md:text-xl 2xl:text-[22px] leading-[30px] font-normal font-Lora mb-6'>
-                  <Link href='/home5/inner_page/room'>Deluxe room</Link>
+                  <Link href='/inner_page/room'>Deluxe room</Link>
                 </h3>
                 <p className='text-lightGray text-sm sm:text-base leading-[26px] font-normal font-Lora'>
                   Located Square, The CozyStay Apartment Private Reteat in The
@@ -205,7 +205,7 @@ const Rooms = () => {
                   <p className='text-Lora text-[15px] sm:text-[18px] leading-6 font-normal text-white'>
                     <span className='text-khaki font-bold '>$49</span> Per Night
                   </p>
-                  <Link href={'/find_room'}>
+                  <Link href={'/inner_page/find_room'}>
                     <button className='btn-primary1'>BOOK NOW</button>
                   </Link>
                 </div>
@@ -220,7 +220,7 @@ const Rooms = () => {
             >
               <div className='relative'>
                 <img
-                  src='/images/home-5/inner_page/room-6.jpg'
+                  src='/images/home-5/room-6.jpg'
                   alt='room_images_one'
                   className='w-full h-full'
                 />
@@ -257,7 +257,7 @@ const Rooms = () => {
                     </span>{' '}
                     Per Night
                   </p>
-                  <Link href={'/find_room'}>
+                  <Link href={'/inner_page/find_room'}>
                     <button className='btn-primary1'>BOOK NOW</button>
                   </Link>
                 </div>

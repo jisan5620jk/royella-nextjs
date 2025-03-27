@@ -1,15 +1,18 @@
+'use client';
+
 import { BiChevronDown } from 'react-icons/bi';
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { useState } from 'react';
 import { FaStar } from 'react-icons/fa6';
-import { Link, useLocation } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
 import { MdEmail, MdOutlineShareLocation } from 'react-icons/md';
 import { IoIosCall } from 'react-icons/io';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Footer from '@/app/Shared/Footer/Footer';
+import Link from 'next/link';
 
-const FindRoom = () => {
+const page = () => {
   //  room info
-  const location = useLocation();
   const roomsData = location.state && location.state;
   const [open, setOpen] = useState(false);
   const [guestOpen, setGuestOpen] = useState(false);
@@ -38,6 +41,7 @@ const FindRoom = () => {
 
   return (
     <section>
+      <Navbar />
       <BreadCrumb title='Find Room' />
       {/* Check Availability */}
       <div className='bg-whiteSmoke dark:bg-normalBlack py-20 2xl:py-[120px]'>
@@ -207,7 +211,7 @@ const FindRoom = () => {
               <div className='relative'>
                 <div className='overflow-hidden'>
                   <img
-                    src='/images/home-1/inner_page/room-1.jpg '
+                    src='/images/home-1/room-1.jpg '
                     className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                     alt='Image'
                   />
@@ -245,7 +249,7 @@ const FindRoom = () => {
                       <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
-                            src='/images/home-1/inner_page/room-bottom-icon.png'
+                            src='/images/home-1/room-bottom-icon.png'
                             alt='Image'
                           />
                           <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -286,7 +290,7 @@ const FindRoom = () => {
               <div className='relative'>
                 <div className='overflow-hidden'>
                   <img
-                    src='/images/home-1/inner_page/room-2.jpg '
+                    src='/images/home-1/room-2.jpg '
                     className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                     alt='Image'
                   />
@@ -324,7 +328,7 @@ const FindRoom = () => {
                       <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
-                            src='/images/home-1/inner_page/room-bottom-icon.png'
+                            src='/images/home-1/room-bottom-icon.png'
                             alt='Image'
                           />
                           <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -365,7 +369,7 @@ const FindRoom = () => {
               <div className='relative'>
                 <div className='overflow-hidden'>
                   <img
-                    src='/images/home-1/inner_page/room-3.jpg '
+                    src='/images/home-1/room-3.jpg '
                     className='w-full h-full object-cover group-hover:scale-110 transition-all duration-300'
                     alt='Image'
                   />
@@ -403,7 +407,7 @@ const FindRoom = () => {
                       <div>
                         <span className='font-Lora text-base flex items-center '>
                           <img
-                            src='/images/home-1/inner_page/room-bottom-icon.png'
+                            src='/images/home-1/room-bottom-icon.png'
                             alt='Image'
                           />
                           <span className='ml-[10px] text-gray dark:text-lightGray'>
@@ -598,8 +602,10 @@ const FindRoom = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </section>
   );
 };
 
-export default FindRoom;
+export default page;

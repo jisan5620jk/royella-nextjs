@@ -20,7 +20,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-1.jpg'
+                  src='/images/home-3/room-1.jpg'
                   className='object-cover w-full '
                   alt='Image'
                 />
@@ -51,7 +51,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-2.jpg'
+                  src='/images/home-3/room-2.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
@@ -83,7 +83,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-3.jpg'
+                  src='/images/home-3/room-3.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
@@ -114,7 +114,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-1.jpg'
+                  src='/images/home-3/room-1.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
@@ -145,7 +145,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-2.jpg'
+                  src='/images/home-3/room-2.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
@@ -177,7 +177,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-3.jpg'
+                  src='/images/home-3/room-3.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
@@ -211,7 +211,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-1.jpg'
+                  src='/images/home-3/room-1.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
@@ -242,7 +242,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-2.jpg'
+                  src='/images/home-3/room-2.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />
@@ -274,7 +274,7 @@ const Rooms = () => {
                 data-aos-duration='1000'
               >
                 <img
-                  src='/images/home-3/inner_page/room-3.jpg'
+                  src='/images/home-3/room-3.jpg'
                   className='object-cover w-full'
                   alt='Image'
                 />

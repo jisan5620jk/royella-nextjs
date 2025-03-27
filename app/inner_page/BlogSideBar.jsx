@@ -1,7 +1,8 @@
 import { FaSearch } from 'react-icons/fa';
 import { BiChevronsRight } from 'react-icons/bi';
 import Link from 'next/link';
-const BlogSideBar = () => {
+
+const BlogSIdebar = () => {
   return (
     <>
       {/* blog search bar*/}
@@ -33,7 +34,7 @@ const BlogSideBar = () => {
         </h2>
         <div className='pt-10'>
           <Link
-            href='/blog_details'
+            href='/inner_page/blog_details'
             className='flex items-center'
             data-aos='fade-up'
             data-aos-duration='1000'
@@ -53,7 +54,7 @@ const BlogSideBar = () => {
             </div>
           </Link>
           <Link
-            href='/blog_details'
+            href='/inner_page/blog_details'
             className='mt-5 md:mt-[30px] flex items-center'
             data-aos='fade-up'
             data-aos-duration='1000'
@@ -73,7 +74,7 @@ const BlogSideBar = () => {
             </div>
           </Link>
           <Link
-            href='/blog_details'
+            href='/inner_page/blog_details'
             className='mt-5 md:mt-[30px] flex items-center'
             data-aos='fade-up'
             data-aos-duration='1000'
@@ -206,4 +207,4 @@ const BlogSideBar = () => {
   );
 };
 
-export default BlogSideBar;
+export default BlogSIdebar;

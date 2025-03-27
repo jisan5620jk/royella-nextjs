@@ -10,6 +10,8 @@ import 'keen-slider/keen-slider.min.css';
 import { IoIosCall } from 'react-icons/io';
 import { MdEmail, MdOutlineShareLocation } from 'react-icons/md';
 import Swal from 'sweetalert2';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Footer from '@/app/Shared/Footer/Footer';
 
 const page = () => {
   // facilities slider breckpoints
@@ -42,6 +44,7 @@ const page = () => {
 
   return (
     <section>
+      <Navbar />
       <BreadCrumb
         title='ROOMS & SUITS'
         home={'/'}
@@ -108,7 +111,7 @@ const page = () => {
                       Luxury Room
                     </h4>
                     <Link
-                      href='/find_room'
+                      href='/inner_page/find_room'
                       state={{ price: '450', title: 'Delux Family Rooms' }}
                     >
                       <h2 className='text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
@@ -189,7 +192,7 @@ const page = () => {
                       Luxury Room
                     </h4>
                     <Link
-                      href='/find_room'
+                      href='/inner_page/find_room'
                       state={{ price: '550', title: 'Double Suite Rooms' }}
                     >
                       <h2 className='text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
@@ -270,7 +273,7 @@ const page = () => {
                       Luxury Room
                     </h4>
                     <Link
-                      href='/find_room'
+                      href='/inner_page/find_room'
                       state={{ price: '560', title: 'Suprior Bed Rooms' }}
                     >
                       <h2 className='text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
@@ -351,7 +354,7 @@ const page = () => {
                       Luxury Room
                     </h4>
                     <Link
-                      href='/find_room'
+                      href='/inner_page/find_room'
                       state={{ price: '480', title: 'Junior Suite Room' }}
                     >
                       <h2 className='text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
@@ -432,7 +435,7 @@ const page = () => {
                       Luxury Room
                     </h4>
                     <Link
-                      href='/find_room'
+                      href='/inner_page/find_room'
                       state={{ price: '520', title: 'Family Suite Room' }}
                     >
                       <h2 className='text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
@@ -513,7 +516,7 @@ const page = () => {
                       Luxury Room
                     </h4>
                     <Link
-                      href='/find_room'
+                      href='/inner_page/find_room'
                       state={{ price: '500', title: 'Beautiful Family Rooms' }}
                     >
                       <h2 className='text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4'>
@@ -883,6 +886,8 @@ const page = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </section>
   );
 };

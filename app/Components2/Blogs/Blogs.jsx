@@ -68,7 +68,7 @@ const Blogs = () => {
                 </div>
                 <div>
                   <h5 className='text-lg md:text-xl xl:text-2xl leading-[32px] text-lightBlack dark:text-white font-bold font-Garamond hover:text-khaki transition-all duration-300'>
-                    <Link href='/blog_details'>
+                    <Link href='/inner_page/blog_details'>
                       Nine resorts in Bangalore that are worth your attention
                     </Link>
                   </h5>
@@ -119,7 +119,7 @@ const Blogs = () => {
                 </div>
                 <div>
                   <h5 className='text-lg md:text-xl xl:text-2xl leading-[32px] text-lightBlack dark:text-white font-bold font-Garamond hover:text-khaki transition-all duration-300'>
-                    <Link href='/blog_details'>
+                    <Link href='/inner_page/blog_details'>
                       The Hotels Perfectly Suited for Business Travelers
                     </Link>
                   </h5>
@@ -170,7 +170,7 @@ const Blogs = () => {
                 </div>
                 <div>
                   <h5 className='text-lg md:text-xl xl:text-2xl leading-[32px] text-lightBlack dark:text-white font-bold font-Garamond hover:text-khaki transition-all duration-300'>
-                    <Link href='/blog_details'>
+                    <Link href='/inner_page/blog_details'>
                       Spa included with our weekend voucher for couples.
                     </Link>
                   </h5>

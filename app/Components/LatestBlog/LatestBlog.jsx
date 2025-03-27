@@ -83,7 +83,7 @@ const LatestBlog = () => {
                           Interior
                         </p>
                       </div>
-                      <Link href={'/blog_details'}>
+                      <Link href={'/inner_page/blog_details'}>
                         <button className='text-xl sm:text-[22px] xl:text-2xl text-left 2xl:text-[26px] leading-[34px] font-semibold text-lightBlack dark:text-white py-2 sm:py-3 md:py-4 hover:underline underline-offset-2'>
                           Luxury Hotel for Traveling Spot USA, California
                         </button>
@@ -134,7 +134,7 @@ const LatestBlog = () => {
                           Interior
                         </p>
                       </div>
-                      <Link href={'/blog_details'}>
+                      <Link href={'/inner_page/blog_details'}>
                         <button className='text-xl sm:text-[22px] xl:text-2xl text-left 2xl:text-[26px] leading-[34px] font-semibold text-lightBlack dark:text-white py-2 sm:py-3 md:py-4 hover:underline underline-offset-2'>
                           Luxury Hotel for Traveling Spot USA, California
                         </button>
@@ -185,7 +185,7 @@ const LatestBlog = () => {
                           Interior
                         </p>
                       </div>
-                      <Link href={'/blog_details'}>
+                      <Link href={'/inner_page/blog_details'}>
                         <button className='text-xl sm:text-[22px] xl:text-2xl text-left 2xl:text-[26px] leading-[34px] font-semibold text-lightBlack dark:text-white py-2 sm:py-3 md:py-4 hover:underline underline-offset-2'>
                           Luxury Hotel for Traveling Spot USA, California
                         </button>

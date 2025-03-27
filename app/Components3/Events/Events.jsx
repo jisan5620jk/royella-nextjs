@@ -48,7 +48,7 @@ const Events = () => {
           </p>
 
           <Link
-            href={'/blog'}
+            href={'/inner_page/blog'}
             className='flex items-center justify-center'
           >
             <button
@@ -105,7 +105,7 @@ const Events = () => {
           </p>
 
           <Link
-            href={'/blog'}
+            href={'/inner_page/blog'}
             className='flex items-center  justify-center'
           >
             <button
@@ -162,7 +162,7 @@ const Events = () => {
           </p>
 
           <Link
-            href={'/blog'}
+            href={'/inner_page/blog'}
             className='flex items-center  justify-center'
           >
             <button

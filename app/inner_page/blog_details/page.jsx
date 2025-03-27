@@ -1,14 +1,14 @@
-import { Link, useLocation } from 'react-router-dom';
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
-import BlogSideBar from './BlogSideBar';
+import BlogSideBar from '../BlogSIdebar';
 import { BiChevronsRight } from 'react-icons/bi';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Link from 'next/link';
+import Footer from '@/app/Shared/Footer/Footer';
 
-const BlogDetails = () => {
-  const location = useLocation();
-  const blogData = location.state && location.state;
-
+const page = () => {
   return (
     <div>
+      <Navbar />
       <BreadCrumb title='Blog Details' />
       {/* Blog Details */}
       <div className='dark:bg-lightBlack py-20 2xl:py-[120px]'>
@@ -31,9 +31,7 @@ const BlogDetails = () => {
                   <span> LUXURY HOTEL</span>
                 </p>
                 <h2 className='py-2 sm:py-3 md:py-4 lg:py-[19px] 2xl:py-[25px] font-Garamond text-[22px] sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-[38px] 3xl:text-[40px] leading-6 lg:leading-[26px]  text-lightBlack dark:text-white font-semibold'>
-                  {blogData && blogData.title
-                    ? blogData.title
-                    : 'Luxury Hotel for Travelling Spot California, USA'}
+                  Luxury Hotel for Travelling Spot California, USA
                 </h2>
                 <p className='text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora'>
                   Rapidiously myocardinate cross-platform intellectual capital
@@ -200,7 +198,7 @@ const BlogDetails = () => {
                   data-aos-duration='1000'
                 >
                   <Link
-                    href='/blog_details'
+                    href='/inner_page/blog_details'
                     className='flex items-center'
                   >
                     <img
@@ -224,7 +222,7 @@ const BlogDetails = () => {
                   data-aos-duration='1000'
                 >
                   <Link
-                    href='/blog_details'
+                    href='/inner_page/blog_details'
                     className='flex flex-row-reverse items-center'
                   >
                     <img
@@ -391,8 +389,9 @@ const BlogDetails = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
 
-export default BlogDetails;
+export default page;

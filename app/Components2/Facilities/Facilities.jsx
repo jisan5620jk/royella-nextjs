@@ -46,7 +46,7 @@ const Facilities = () => {
                 these royella dolor consectetur tempor incididunt resort sweet
               </p>
               <Link
-                href={'/find_room'}
+                href={'/inner_page/find_room'}
                 className='group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]'
               >
                 {' '}
@@ -73,7 +73,7 @@ const Facilities = () => {
                 these royella dolor consectetur tempor incididunt resort sweet
               </p>
               <Link
-                href={'/find_room'}
+                href={'/inner_page/find_room'}
                 className='group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]'
               >
                 {' '}
@@ -103,7 +103,7 @@ const Facilities = () => {
                 these royella dolor consectetur tempor incididunt resort sweet
               </p>
               <Link
-                href={'/find_room'}
+                href={'/inner_page/find_room'}
                 className='group-hover:opacity-100 flex items-center justify-center text-khaki transition-all duration-300 text-sm sm:text-[15px] leading-[38px] font-Lora font-normal uppercase opacity-0 pb-[20px]'
               >
                 {' '}

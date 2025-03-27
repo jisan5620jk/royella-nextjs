@@ -7,7 +7,6 @@ import {
 } from 'react-icons/fa';
 import { IoLocationSharp } from 'react-icons/io5';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 
 const Footer3 = () => {
 

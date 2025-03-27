@@ -1,10 +1,13 @@
 import { FaFacebookF, FaLinkedinIn, FaPinterestP } from 'react-icons/fa';
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { BsTwitter } from 'react-icons/bs';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Footer from '@/app/Shared/Footer/Footer';
 
-const Team = () => {
+const page = () => {
   return (
     <div>
+      <Navbar />
       <BreadCrumb title='our team' />
       {/* Content */}
 
@@ -253,8 +256,9 @@ const Team = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
 
-export default Team;
+export default page;

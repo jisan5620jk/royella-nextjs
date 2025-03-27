@@ -1,7 +1,6 @@
 import { BiLogoLinkedin, BiLogoYoutube } from 'react-icons/bi';
 import { FaFacebookF, FaPinterestP, FaTwitter } from 'react-icons/fa';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 
 const Footer4 = () => {
 

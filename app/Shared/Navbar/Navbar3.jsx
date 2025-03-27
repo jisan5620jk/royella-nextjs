@@ -195,7 +195,7 @@ const Navbar3 = () => {
                   : isActive
                   ? 'active'
                   : ''} text-lightBlack lg:text-white dark:text-white  lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 hover:text-khaki `}
-              href='/home3/inner_page/about'
+              href='/inner_page/about'
             >
               About
             </Link>
@@ -219,7 +219,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/inner_page/room'
+                        href='/inner_page/room'
                         className='block py-2'
                       >
                         Room
@@ -229,7 +229,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/find_room'
+                        href='/inner_page/find_room'
                         className='block py-2'
                       >
                         Find Room
@@ -239,7 +239,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/inner_page/room_details'
+                        href='/inner_page/room_details'
                         className='block py-2'
                       >
                         Room Details
@@ -269,7 +269,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/inner_page/about'
+                        href='/inner_page/about'
                         className='py-2 block'
                       >
                         ABOUT US
@@ -279,7 +279,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/services'
+                        href='/inner_page/services'
                         className='py-2 block'
                       >
                         SERVICE
@@ -289,7 +289,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/service_details'
+                        href='/inner_page/service_details'
                         className='py-2 block'
                       >
                         SERVICE DETAILS
@@ -299,7 +299,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/our_team'
+                        href='/inner_page/team'
                         className='py-2 block'
                       >
                         OUR TEAM
@@ -309,7 +309,7 @@ const Navbar3 = () => {
                   <div className=' px-5 group hover:bg-khaki hover:text-white'>
                     <li className='hover:ml-3 duration-300  '>
                       <Link
-                        href='/home3/pricing'
+                        href='/inner_page/pricing'
                         className='py-2 block'
                       >
                         PRICING
@@ -367,7 +367,7 @@ const Navbar3 = () => {
                   : isActive
                   ? 'active'
                   : ''} text-lightBlack lg:text-white dark:text-white lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 hover:text-khaki `}
-              href='/home3/contact'
+              href='/inner_page/contact'
             >
               Contact
             </Link>

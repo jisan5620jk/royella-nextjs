@@ -1,10 +1,13 @@
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import { GoDotFill } from 'react-icons/go';
-import AnimatedAccordionPage from './Accordion/AnimatedAccordionPage';
+import AnimatedAccordionPage from '../Accordion/AnimatedAccordionPage';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Footer from '@/app/Shared/Footer/Footer';
 
-const Pricing = () => {
+const page = () => {
   return (
     <div>
+      <Navbar />
       <BreadCrumb title='Pricing' />
       {/* Pricing  */}
       <div className='dark:bg-normalBlack py-20 2xl:py-[120px]'>
@@ -250,8 +253,9 @@ const Pricing = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
 
-export default Pricing;
+export default page;

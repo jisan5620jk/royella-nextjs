@@ -253,7 +253,7 @@ const Navbar5 = () => {
                     : isActive
                     ? 'active'
                     : ''} text-lightBlack lg:text-white dark:text-white  lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 hover:text-khaki `}
-                href='/home5/inner_page/about'
+                href='/inner_page/about'
               >
                 About
               </Link>
@@ -277,7 +277,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/inner_page/room'
+                          href='/inner_page/room'
                           className='block py-2'
                         >
                           Room
@@ -287,7 +287,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/find_room'
+                          href='/inner_page/find_room'
                           className='block py-2'
                         >
                           Find Room
@@ -297,7 +297,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/inner_page/room_details'
+                          href='/inner_page/room_details'
                           className='block py-2'
                         >
                           Room Details
@@ -327,7 +327,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/inner_page/about'
+                          href='/inner_page/about'
                           className='py-2 block'
                         >
                           ABOUT US
@@ -337,7 +337,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/services'
+                          href='/inner_page/services'
                           className='py-2 block'
                         >
                           SERVICE
@@ -347,7 +347,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/service_details'
+                          href='/inner_page/service_details'
                           className='py-2 block'
                         >
                           SERVICE DETAILS
@@ -357,7 +357,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/our_team'
+                          href='/inner_page/team'
                           className='py-2 block'
                         >
                           OUR TEAM
@@ -367,7 +367,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300  '>
                         <Link
-                          href='/home5/pricing'
+                          href='/inner_page/pricing'
                           className='py-2 block'
                         >
                           PRICING
@@ -398,7 +398,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300 '>
                         <Link
-                          href='/home5/blog'
+                          href='/inner_page/blog'
                           className='py-2 block'
                         >
                           BLOG
@@ -408,7 +408,7 @@ const Navbar5 = () => {
                     <div className=' px-5 group hover:bg-khaki hover:text-white'>
                       <li className='hover:ml-3 duration-300 '>
                         <Link
-                          href='/home5/blog_details'
+                          href='/inner_page/blog_details'
                           className='py-2 block'
                         >
                           BLOG DETAILS
@@ -425,7 +425,7 @@ const Navbar5 = () => {
                     : isActive
                     ? 'active'
                     : ''} text-lightBlack lg:text-white dark:text-white lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 hover:text-khaki `}
-                href='/home5/contact'
+                href='/inner_page/contact'
               >
                 Contact
               </Link>
@@ -450,7 +450,7 @@ const Navbar5 = () => {
                   )}
                 </span>
                 <Link
-                  href={'/pricing'}
+                  href={'/inner_page/pricing'}
                   className=' pr-3'
                 >
                   <button className='btn-primary hover:text-khaki font-bold after:bg-white after:text-khaki hover:before:bg-white'>

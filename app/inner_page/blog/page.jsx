@@ -1,11 +1,14 @@
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import Link from 'next/link';
-import BlogSideBar from './BlogSideBar';
+import BlogSideBar from '../BlogSIdebar';
+import Navbar from '@/app/Shared/Navbar/Navbar';
+import Footer from '@/app/Shared/Footer/Footer';
 
-const Blog = () => {
+const page = () => {
   return (
     <div>
+      <Navbar />
       <BreadCrumb title='Blog' />
       <div className='dark:bg-lightBlack py-20 2xl:py-[120px]'>
         <div className='Container grid grid-cols-6 md:grid-cols-7 lg:grid-cols-6 gap-5 '>
@@ -35,7 +38,7 @@ const Blog = () => {
                       </p>
                     </div>
                     <Link
-                      href='/blog_details'
+                      href='/inner_page/blog_details'
                       state={{
                         title: 'How to Book a Room online Step by Step Guide',
                       }}
@@ -47,7 +50,7 @@ const Blog = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5'>
                     <Link
-                      href={'/blog_details'}
+                      href={'/inner_page/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
                       <div>
@@ -91,7 +94,7 @@ const Blog = () => {
                       </p>
                     </div>
                     <Link
-                      href='/blog_details'
+                      href='/inner_page/blog_details'
                       state={{
                         title:
                           'Pre Booking Benifits for the Traveller on our Hotel',
@@ -104,7 +107,7 @@ const Blog = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5'>
                     <Link
-                      href={'/blog_details'}
+                      href={'/inner_page/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
                       <div>
@@ -148,7 +151,7 @@ const Blog = () => {
                       </p>
                     </div>
                     <Link
-                      href='/blog_details'
+                      href='/inner_page/blog_details'
                       state={{
                         title:
                           '5 Discount Period every year for Valuable Clients',
@@ -161,7 +164,7 @@ const Blog = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5'>
                     <Link
-                      href={'/blog_details'}
+                      href={'/inner_page/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
                       <div>
@@ -205,7 +208,7 @@ const Blog = () => {
                       </p>
                     </div>
                     <Link
-                      href='/blog_details'
+                      href='/inner_page/blog_details'
                       state={{
                         title: 'Luxury Hotel for Travelling Spot Sandigo , UK',
                       }}
@@ -217,7 +220,7 @@ const Blog = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5'>
                     <Link
-                      href={'/blog_details'}
+                      href={'/inner_page/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
                       <div>
@@ -261,7 +264,7 @@ const Blog = () => {
                       </p>
                     </div>
                     <Link
-                      href='/blog_details'
+                      href='/inner_page/blog_details'
                       state={{
                         title:
                           'Luxury Hotel for Traveling Spot USA, California',
@@ -274,7 +277,7 @@ const Blog = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5'>
                     <Link
-                      href={'/blog_details'}
+                      href={'/inner_page/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
                       <div>
@@ -318,7 +321,7 @@ const Blog = () => {
                       </p>
                     </div>
                     <Link
-                      href='/blog_details'
+                      href='/inner_page/blog_details'
                       state={{
                         title: 'Top 10 Best Hotel & Resort in Sandigo, USA',
                       }}
@@ -330,7 +333,7 @@ const Blog = () => {
                   </div>
                   <div className='  border-t-[1px] border-[#ddd] dark:border-gray py-2 sm:py-3 md:py-4 xl:py-5'>
                     <Link
-                      href={'/blog_details'}
+                      href={'/inner_page/blog_details'}
                       className='px-[30px] flex items-center justify-between '
                     >
                       <div>
@@ -396,8 +399,9 @@ const Blog = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
 
-export default Blog;
+export default page;

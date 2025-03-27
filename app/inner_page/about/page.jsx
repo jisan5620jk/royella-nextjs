@@ -569,7 +569,7 @@ const page = () => {
                           Interior
                         </p>
                       </div>
-                      <Link href='/blog'>
+                      <Link href='/inner_page/blog'>
                         <h2 className='text-xl sm:text-[22px] xl:text-2xl 2xl:text-[26px] leading-[34px] font-semibold text-lightBlack dark:text-white py-2 sm:py-3 md:py-4 hover:underline underline-offset-2'>
                           Luxury Hotel for Traveling Spot USA, California
                         </h2>
@@ -619,7 +619,7 @@ const page = () => {
                           Interior
                         </p>
                       </div>
-                      <Link href='/blog'>
+                      <Link href='/inner_page/blog'>
                         <h2 className='text-xl sm:text-[22px] xl:text-2xl 2xl:text-[26px] leading-[34px] font-semibold text-lightBlack dark:text-white py-2 sm:py-3 md:py-4 hover:underline underline-offset-2'>
                           Luxury Hotel for Traveling Spot USA, California
                         </h2>
@@ -669,7 +669,7 @@ const page = () => {
                           Interior
                         </p>
                       </div>
-                      <Link href='/blog'>
+                      <Link href='/inner_page/blog'>
                         <h2 className='text-xl sm:text-[22px] xl:text-2xl 2xl:text-[26px] leading-[34px] font-semibold text-lightBlack dark:text-white py-2 sm:py-3 md:py-4 hover:underline underline-offset-2'>
                           Luxury Hotel for Traveling Spot USA, California
                         </h2>

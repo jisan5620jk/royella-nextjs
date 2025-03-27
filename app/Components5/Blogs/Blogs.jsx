@@ -78,7 +78,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className='text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300'>
-                          <Link href='/blog_details'>
+                          <Link href='/inner_page/blog_details'>
                             {' '}
                             A Guide to Travel Insurance For The Elderly...
                           </Link>
@@ -99,7 +99,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}
@@ -141,7 +141,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className='text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8 text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300'>
-                          <Link href='/blog_details'>
+                          <Link href='/inner_page/blog_details'>
                             We Ensure Delivery of The Project Within...
                           </Link>
                         </h3>
@@ -161,7 +161,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}
@@ -223,7 +223,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}
@@ -265,7 +265,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className='text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300'>
-                          <Link href='/blog_details'>
+                          <Link href='/inner_page/blog_details'>
                             {' '}
                             A Guide to Travel Insurance For The Elderly...
                           </Link>
@@ -286,7 +286,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}
@@ -328,7 +328,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className='text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300'>
-                          <Link href='/home5/inner_page/room'>
+                          <Link href='/inner_page/room'>
                             We Ensure Delivery of The Project Within...
                           </Link>
                         </h3>
@@ -348,7 +348,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}
@@ -410,7 +410,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}
@@ -455,7 +455,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className='text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300'>
-                          <Link href='/blog_details'>
+                          <Link href='/inner_page/blog_details'>
                             {' '}
                             A Guide to Travel Insurance For The Elderly...
                           </Link>
@@ -476,7 +476,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}
@@ -518,7 +518,7 @@ const Blogs = () => {
                           </p>
                         </div>
                         <h3 className='text-lg  sm:text-[24px] pt-1 md:pt-[6px] lg:pt-0 lg:text-[20px] xl:text-[24px] 2xl:text-[28px] leading-7 pb-1 md:leading-8  text-[#012549] dark:text-whiteSmoke font-bold font-Garamond mb-[19px] hover:text-khaki dark:hover:text-khaki transition-all duration-300'>
-                          <Link href='/home5/inner_page/room'>
+                          <Link href='/inner_page/room'>
                             We Ensure Delivery of The Project Within...
                           </Link>
                         </h3>
@@ -538,7 +538,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}
@@ -600,7 +600,7 @@ const Blogs = () => {
                         </div>
                         <div className='text-sm xl:text-base text-[#012549] dark:text-lightGray font-semibold font-Lora ml-[8px] leading-[26px] '>
                           <Link
-                            href='/blog_details'
+                            href='/inner_page/blog_details'
                             className='flex items-center hover:text-khaki'
                           >
                             Learn More{' '}

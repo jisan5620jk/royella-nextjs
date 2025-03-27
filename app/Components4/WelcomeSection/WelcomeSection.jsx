@@ -18,7 +18,7 @@ const WelcomeSection = () => {
           data-aos-duration='1000'
         >
           <img
-            src='/images/home-4/inner_page/about-thumb.png'
+            src='/images/home-4/about-thumb.png'
             alt='Image'
             className='w-full h-full object-cover '
           />
@@ -40,7 +40,7 @@ const WelcomeSection = () => {
         </div>
         {/* WelcomeSection text*/}
         <div
-          className='w-full  p-[20px] lg:pr-[20px] xl:p-[50px]'
+          className='w-full p-5 lg:pr-5 xl:p-[50px]'
           data-aos='fade-down'
           data-aos-duration='1000'
         >

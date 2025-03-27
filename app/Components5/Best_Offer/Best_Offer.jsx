@@ -66,7 +66,7 @@ const Best_Offer = () => {
                 </li>
               </ul>
             </div>
-            <Link href={'/service_details'}>
+            <Link href={'/inner_page/service_details'}>
               <button className='btn-primary 3xl:w-[211px]'>
                 Discover More
               </button>

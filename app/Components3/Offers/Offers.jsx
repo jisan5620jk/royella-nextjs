@@ -49,7 +49,7 @@ const Offers = () => {
                 dolor, dapibus eget, elementum vel, cursus eleifend, elit.
                 Aenean auctor wisi et urna...
               </p>
-              <Link href={'/pricing'}>
+              <Link href={'/inner_page/pricing'}>
                 <button
                   href='#'
                   className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white'
@@ -87,7 +87,7 @@ const Offers = () => {
                 dolor, dapibus eget, elementum vel, cursus eleifend, elit.
                 Aenean auctor wisi et urna...
               </p>
-              <Link href={'/pricing'}>
+              <Link href={'/inner_page/pricing'}>
                 <button
                   href='#'
                   className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white'
@@ -125,7 +125,7 @@ const Offers = () => {
                 dolor, dapibus eget, elementum vel, cursus eleifend, elit.
                 Aenean auctor wisi et urna...
               </p>
-              <Link href={'/pricing'}>
+              <Link href={'/inner_page/pricing'}>
                 <button
                   href='#'
                   className='flex items-center text-lightBlack dark:text-white transition-all duration-300 text-sm sm:text-base leading-5 lg:leading-[38px] font-Lora font-medium  border px-6 h-[41px] hover:bg-khaki hover:text-white'
