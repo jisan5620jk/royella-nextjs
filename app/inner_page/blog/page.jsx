@@ -3,7 +3,7 @@ import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
 import Link from 'next/link';
 import Navbar from '@/app/Shared/Navbar/Navbar';
 import Footer from '@/app/Shared/Footer/Footer';
-import BlogSidebar from '../BlogSidebar';
+import BlogSidebar from '../BlogSidebar/BlogSidebar';
 
 const page = () => {
   return (
