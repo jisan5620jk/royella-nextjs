@@ -2,7 +2,7 @@ import { FaSearch } from 'react-icons/fa';
 import { BiChevronsRight } from 'react-icons/bi';
 import Link from 'next/link';
 
-const BlogSIdebar = () => {
+const BlogSidebar = () => {
   return (
     <>
       {/* blog search bar*/}
@@ -207,4 +207,4 @@ const BlogSIdebar = () => {
   );
 };
 
-export default BlogSIdebar;
+export default BlogSidebar;
