@@ -1,9 +1,9 @@
 import BreadCrumb from '@/app/Shared/BreadCrumb/BreadCrumb';
-import BlogSideBar from '../BlogSIdebar';
 import { BiChevronsRight } from 'react-icons/bi';
 import Navbar from '@/app/Shared/Navbar/Navbar';
 import Link from 'next/link';
 import Footer from '@/app/Shared/Footer/Footer';
+import BlogSidebar from '../BlogSidebar';
 
 const page = () => {
   return (
@@ -385,7 +385,7 @@ const page = () => {
           {/* Blog Sidebar */}
           <div className='col-span-6 md:col-span-3 lg:col-span-2'>
             {/* imported Blog Sidebar */}
-            <BlogSideBar />
+            <BlogSidebar />
           </div>
         </div>
       </div>
