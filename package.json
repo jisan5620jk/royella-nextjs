@@ -13,7 +13,7 @@
     "flowbite": "^3.0.0",
     "fslightbox-react": "^1.7.6",
     "keen-slider": "^6.6.10",
-    "next": "13.4",
+    "next": "^15.3.0",
     "node": "^18.20.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
