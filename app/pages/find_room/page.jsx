@@ -2,7 +2,7 @@
 
 import { BiChevronDown } from "react-icons/bi";
 import BreadCrumb from "@/app/Shared/BreadCrumb/BreadCrumb";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa6";
 import { BsArrowRight } from "react-icons/bs";
 import { MdEmail, MdOutlineShareLocation } from "react-icons/md";
@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const Page = () => {
 
-  //  room info
+  // Room info
   const [roomsData, setRoomsData] = useState(null);
   const [open, setOpen] = useState(false);
   const [guestOpen, setGuestOpen] = useState(false);
