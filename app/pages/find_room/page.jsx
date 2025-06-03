@@ -12,8 +12,9 @@ import Footer from "@/app/Shared/Footer/Footer";
 import Link from "next/link";
 
 const page = () => {
+  
   //  room info
-  const roomsData = location.state && location.state;
+  const [roomsData, setRoomsData] = useState(null);
   const [open, setOpen] = useState(false);
   const [guestOpen, setGuestOpen] = useState(false);
   const [room, setRoom] = useState(1);
@@ -22,14 +23,20 @@ const page = () => {
   const [selectedInDate, setSelectedInDate] = useState("");
   const [selectedOutDate, setSelectedOutDate] = useState("");
 
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.location?.state) {
+      setRoomsData(window.location.state);
+    }
+  }, []);
+
   const handleCheckInDate = (e) => {
-    let newDate = e.target.value;
-    setSelectedInDate(newDate);
+    setSelectedInDate(e.target.value);
   };
+
   const handleCheckOutDate = (e) => {
-    let newDate = e.target.value;
-    setSelectedOutDate(newDate);
+    setSelectedOutDate(e.target.value);
   };
+
   const bookingInfo = {
     ...roomsData,
     selectedInDate,
