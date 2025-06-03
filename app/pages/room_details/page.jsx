@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
 import Navbar from '@/app/Shared/Navbar/Navbar';
 import Footer from '@/app/Shared/Footer/Footer';
 
-const page = () => {
+const Page = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const bookingsData = location.state && location.state;
 
@@ -440,4 +440,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

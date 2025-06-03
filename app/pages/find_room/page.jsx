@@ -11,8 +11,8 @@ import Navbar from "@/app/Shared/Navbar/Navbar";
 import Footer from "@/app/Shared/Footer/Footer";
 import Link from "next/link";
 
-const page = () => {
-  
+const Page = () => {
+
   //  room info
   const [roomsData, setRoomsData] = useState(null);
   const [open, setOpen] = useState(false);
@@ -606,4 +606,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

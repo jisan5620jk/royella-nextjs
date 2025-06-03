@@ -19,7 +19,7 @@ import Link from "next/link";
 import Navbar from "@/app/Shared/Navbar/Navbar";
 import Footer from "@/app/Shared/Footer/Footer";
 
-const page = () => {
+const Page = () => {
   const [setCurrentSlide] = useState(0);
   // const [setLoaded] = useState(false);
   const [toggler, setToggler] = useState(false);
@@ -687,4 +687,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

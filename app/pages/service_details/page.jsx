@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import Navbar from '@/app/Shared/Navbar/Navbar';
 import Footer from '@/app/Shared/Footer/Footer';
 
-const page = () => {
+const Page = () => {
   const [menu, setMenu] = useState([]);
   const [showItem, setShowItem] = useState([]);
   useEffect(() => {
@@ -333,4 +333,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
