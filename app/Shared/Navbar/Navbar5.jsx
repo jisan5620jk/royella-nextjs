@@ -17,10 +17,8 @@ const Navbar5 = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const darkMode = localStorage.getItem("darkMode") === "true";
-      setIsDarkMode(darkMode);
-    }
+    const darkMode = localStorage.getItem("darkMode") === "true";
+    setIsDarkMode(darkMode);
   }, []);
   // scrolling tracker
   // scrolling tracker

@@ -1,11 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import useScrollPosition from "./useScrollPosition";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { BiChevronDown, BiSun } from "react-icons/bi";
 import { IoMoonSharp } from "react-icons/io5";
-import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -15,10 +15,8 @@ const Navbar = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const darkMode = localStorage.getItem("darkMode") === "true";
-      setIsDarkMode(darkMode);
-    }
+    const darkMode = localStorage.getItem('darkMode') === 'true';
+    setIsDarkMode(darkMode);
   }, []);
 
   // scrolling tracker

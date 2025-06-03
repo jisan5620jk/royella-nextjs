@@ -9,12 +9,16 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const Navbar2 = () => {
-  // modal openar
+  // modal opener
   const [isOpen, setIsOpen] = useState(false);
   // dark mode toggle bar
-  const [isDarkMode, setIsDarkMode] = useState(
-    localStorage.getItem("darkMode") === "true"
-  );
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    const darkMode = localStorage.getItem("darkMode") === "true";
+    setIsDarkMode(darkMode);
+  }, []);
+  
   // scrolling tracker
   const scrollPosition = useScrollPosition();
   // background color add and remover
